@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		4A7DF57DA2F84907B8271236 /* ZERO_CHECK */ = {
+		A2087236F5994E318FDE8199 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6DBE92FA3F9E47FDB13DAB5E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 2131974AFD104EE28D6152B0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				6F467B208168ACF575C42826 /* Generate CMakeFiles/ZERO_CHECK */,
+				4297C2924CB855E445484D9E /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		4FE75B91DF314CA99DF4FD84 /* ALL_BUILD */ = {
+		D2200741008E4506B3096D07 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BCCBA6539B9C460383CABC52 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 482B068DEBB6432EA0D127CC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				02E2E54010E591E63FBF35B8 /* Generate CMakeFiles/ALL_BUILD */,
+				685D9494E29CA0E485E4F26E /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				77CE82A7581448DD80B85F85 /* PBXTargetDependency */,
-				2A20F66AAF074B53AFFDA2A4 /* PBXTargetDependency */,
+				5AD793F582AF4C6D9B20D8A6 /* PBXTargetDependency */,
+				A2AECED060814852A9A60D1B /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,78 +34,78 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		56085A1E148A4D0BA0FE5751 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 08CAD987E4174732923A9618 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
-		AEA60A337F334CC79268AF91 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 26CAF52C94184B55A1D4DF33 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
-		E586003DDA204930B31C4BAF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 3E460604F949469F8DE33BFC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
-		E5ACCD780B674C67803635A5 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 769E936A0E334711889552B1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		321C3A2D11144B5E9E3E7774 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 066A35F7630F44999760C774 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		49E218F7CCA948998C843660 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 5DE1DB5BFA69484EA7B929D8 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		5E4AAA2FE52F42ECBB83A015 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 0CEB7727EF6C4586A7B2108A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		EC8025F0377944009F0D5623 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D6FCE0CBE32D48108D7EF887 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		4E6338091F7147F0BF970AB4 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		E10479EB5C54448BAA6B8D1C /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		F2AB110710474152A177AE3C /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		FE886A887C834331B650F4EA /* Release */ = {
+		311209BE2EB04921B666E4A0 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		43AF2279329A444488A127DC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4CFF39CCB4BA4B1C9EF2C19D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E86B2F8DAB2B46DAA9E8787F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		580BDDC2FACE41A68FE1371B /* PBXContainerItemProxy */ = {
+		5CABF80237A74C24905F6FF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E0FC8B8798CB46BEB7501200 /* Project object */;
+			containerPortal = EC01E542F3034D59B5A822DE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 304C2ED33D0D4BFAA4E90C0C;
-			remoteInfo = ext_convertUTF;
-		};
-		8DE17C981D794057B76BF342 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E0FC8B8798CB46BEB7501200 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4A7DF57DA2F84907B8271236;
+			remoteGlobalIDString = A2087236F5994E318FDE8199;
 			remoteInfo = ZERO_CHECK;
 		};
-		E733D760FA2D49528160A787 /* PBXContainerItemProxy */ = {
+		62E61DA1B1C840D3939E7DAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E0FC8B8798CB46BEB7501200 /* Project object */;
+			containerPortal = EC01E542F3034D59B5A822DE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A7DF57DA2F84907B8271236;
+			remoteGlobalIDString = 556A7316125D4EDBB13B291F;
+			remoteInfo = ext_convertUTF;
+		};
+		8454C484A49B46678BF70271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC01E542F3034D59B5A822DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2087236F5994E318FDE8199;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047246FC681E484B9173E901 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		08CAD987E4174732923A9618 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
-		26CAF52C94184B55A1D4DF33 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		3E460604F949469F8DE33BFC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF.c; sourceTree = SOURCE_ROOT; };
-		769E936A0E334711889552B1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist; sourceTree = "<absolute>"; };
-		AC916EF9E0454C1ABC3C3879 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		010D03D92A9F40A9AF90BC5E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		066A35F7630F44999760C774 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0CEB7727EF6C4586A7B2108A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		5DE1DB5BFA69484EA7B929D8 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		B218016B1C04463F94C190E9 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FCE0CBE32D48108D7EF887 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B333E0E022F640FBA41C2B8B /* Frameworks */ = {
+		771B784551274CAA8F3FD1A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,167 +115,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C3029FB2D7A47C6A8DF78FA = {
+		2746399866D945848DB55FE1 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				C39B4374199C4B6E9E98B54A /* External */,
-				A7CC93B14E294496A1C997A6 /* ALL_BUILD */,
-				AE2919828FB74D1B8C2ACD04 /* Products */,
-				3CD3F674C86442F199FCE943 /* Frameworks */,
+				5601C7C531B144D8A611E6B2 /* CMake Rules */,
+				010D03D92A9F40A9AF90BC5E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		33D89C80CE16406BBA13C683 = {
+			isa = PBXGroup;
+			children = (
+				6AF598939E6C48E6BE8BF7F6 /* External */,
+				2746399866D945848DB55FE1 /* ALL_BUILD */,
+				90A8DAC08E20440DADFE9275 /* Products */,
+				F50616164BFE4201AC5D31A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		3CD3F674C86442F199FCE943 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4FD737A2E33B403FBEB94DB7 /* ext_convertUTF */ = {
-			isa = PBXGroup;
-			children = (
-				DF0F2C95FB85416FA746477F /* Source Files */,
-				9EC2B6614DD847FC854F9C79 /* Resources */,
-				26CAF52C94184B55A1D4DF33 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/CMakeLists.txt */,
-			);
-			name = ext_convertUTF;
-			sourceTree = "<group>";
-		};
-		9EC2B6614DD847FC854F9C79 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				769E936A0E334711889552B1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A5EFA13C5D5741948FD39425 /* CMake Rules */ = {
+		5601C7C531B144D8A611E6B2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		A7CC93B14E294496A1C997A6 /* ALL_BUILD */ = {
+		6AF598939E6C48E6BE8BF7F6 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				A5EFA13C5D5741948FD39425 /* CMake Rules */,
-				AC916EF9E0454C1ABC3C3879 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		AE2919828FB74D1B8C2ACD04 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				047246FC681E484B9173E901 /* ext_convertUTF */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C39B4374199C4B6E9E98B54A /* External */ = {
-			isa = PBXGroup;
-			children = (
-				4FD737A2E33B403FBEB94DB7 /* ext_convertUTF */,
+				9B3DCFBF23D54689B3A429DC /* ext_convertUTF */,
 			);
 			name = External;
 			sourceTree = "<group>";
 		};
-		DF0F2C95FB85416FA746477F /* Source Files */ = {
+		90A8DAC08E20440DADFE9275 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E460604F949469F8DE33BFC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTF.c */,
-				08CAD987E4174732923A9618 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+				B218016B1C04463F94C190E9 /* ext_convertUTF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3DCFBF23D54689B3A429DC /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				DC4A190196A14DD8A34A52DB /* Source Files */,
+				DE5192E229694F279DA29610 /* Resources */,
+				066A35F7630F44999760C774 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		DC4A190196A14DD8A34A52DB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB7727EF6C4586A7B2108A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				5DE1DB5BFA69484EA7B929D8 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
 			);
 			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DE5192E229694F279DA29610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6FCE0CBE32D48108D7EF887 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F50616164BFE4201AC5D31A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		304C2ED33D0D4BFAA4E90C0C /* ext_convertUTF */ = {
+		556A7316125D4EDBB13B291F /* ext_convertUTF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F360614FD84D4166A4983963 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildConfigurationList = E01A2F1D13574C50A4B4CD16 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
 			buildPhases = (
-				68C3C22BC87B43B099A93DC7 /* Sources */,
-				B333E0E022F640FBA41C2B8B /* Frameworks */,
+				E8B58FF516814EADB701C906 /* Sources */,
+				771B784551274CAA8F3FD1A2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7C06749490E94E879122078B /* PBXTargetDependency */,
+				BD83941916624EB69142AE15 /* PBXTargetDependency */,
 			);
 			name = ext_convertUTF;
 			productName = ext_convertUTF;
-			productReference = 047246FC681E484B9173E901 /* ext_convertUTF */;
+			productReference = B218016B1C04463F94C190E9 /* ext_convertUTF */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E0FC8B8798CB46BEB7501200 /* Project object */ = {
+		EC01E542F3034D59B5A822DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 			};
-			buildConfigurationList = 9F61A61852814E23AB3CA828 /* Build configuration list for PBXProject "convertUTF" */;
+			buildConfigurationList = 852EE0CE14E547A4AFDB8AF8 /* Build configuration list for PBXProject "convertUTF" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				F2AB110710474152A177AE3C /* Debug */,
-				FE886A887C834331B650F4EA /* Release */,
-				E10479EB5C54448BAA6B8D1C /* MinSizeRel */,
-				4E6338091F7147F0BF970AB4 /* RelWithDebInfo */,
+				43AF2279329A444488A127DC /* Debug */,
+				311209BE2EB04921B666E4A0 /* Release */,
+				E86B2F8DAB2B46DAA9E8787F /* MinSizeRel */,
+				4CFF39CCB4BA4B1C9EF2C19D /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 0C3029FB2D7A47C6A8DF78FA;
-			projectDirPath = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF;
+			mainGroup = 33D89C80CE16406BBA13C683;
+			projectDirPath = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF;
 			projectRoot = "";
 			targets = (
-				4FE75B91DF314CA99DF4FD84 /* ALL_BUILD */,
-				4A7DF57DA2F84907B8271236 /* ZERO_CHECK */,
-				304C2ED33D0D4BFAA4E90C0C /* ext_convertUTF */,
+				D2200741008E4506B3096D07 /* ALL_BUILD */,
+				A2087236F5994E318FDE8199 /* ZERO_CHECK */,
+				556A7316125D4EDBB13B291F /* ext_convertUTF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02E2E54010E591E63FBF35B8 /* Generate CMakeFiles/ALL_BUILD */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ALL_BUILD";
-			outputPaths = (
-/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ALL_BUILD			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 		3C0110FC8322DE7E50886E21 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,7 +258,7 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		6F467B208168ACF575C42826 /* Generate CMakeFiles/ZERO_CHECK */ = {
+		4297C2924CB855E445484D9E /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -301,25 +268,58 @@ exit 0";
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ZERO_CHECK			);
+/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ZERO_CHECK			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		685D9494E29CA0E485E4F26E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -342,41 +342,160 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		68C3C22BC87B43B099A93DC7 /* Sources */ = {
+		E8B58FF516814EADB701C906 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E586003DDA204930B31C4BAF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTF.c */,
-				56085A1E148A4D0BA0FE5751 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+				5E4AAA2FE52F42ECBB83A015 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				49E218F7CCA948998C843660 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A20F66AAF074B53AFFDA2A4 /* PBXTargetDependency */ = {
+		5AD793F582AF4C6D9B20D8A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A7DF57DA2F84907B8271236 /* ZERO_CHECK */;
-			targetProxy = 8DE17C981D794057B76BF342 /* PBXContainerItemProxy */;
+			target = 556A7316125D4EDBB13B291F /* ext_convertUTF */;
+			targetProxy = 62E61DA1B1C840D3939E7DAE /* PBXContainerItemProxy */;
 		};
-		77CE82A7581448DD80B85F85 /* PBXTargetDependency */ = {
+		A2AECED060814852A9A60D1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 304C2ED33D0D4BFAA4E90C0C /* ext_convertUTF */;
-			targetProxy = 580BDDC2FACE41A68FE1371B /* PBXContainerItemProxy */;
+			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
+			targetProxy = 8454C484A49B46678BF70271 /* PBXContainerItemProxy */;
 		};
-		7C06749490E94E879122078B /* PBXTargetDependency */ = {
+		BD83941916624EB69142AE15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A7DF57DA2F84907B8271236 /* ZERO_CHECK */;
-			targetProxy = E733D760FA2D49528160A787 /* PBXContainerItemProxy */;
+			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
+			targetProxy = 5CABF80237A74C24905F6FF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		099EEB65F1DA4190942056DB /* RelWithDebInfo */ = {
+		1FF6121D89A04AFD825F0DF8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/build;
+			};
+			name = RelWithDebInfo;
+		};
+		6CEA87B5E1F148FC8E3EA4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/build;
+			};
+			name = Release;
+		};
+		71E08AA3ADCF48F0BB47C5E2 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/RelWithDebInfo;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		75C225DB331945DFAB5C1C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		807A6FA294BC436F8EC64309 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		80BB17EF8B0B4B0CB8DBC821 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/build;
+			};
+			name = MinSizeRel;
+		};
+		81A34F4F5B1F49959EF89CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8EC5AC4E12E74C68B8B75F94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/RelWithDebInfo;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -385,7 +504,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/.,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
@@ -395,265 +514,17 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_convertUTF;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		0E415057C2DF4E9395AD06F9 /* Debug */ = {
+		93B9041F66244E02B12D3A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		120338A0E75F4A72B4288F80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		325AA8DF5FB04D30A85723AC /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		47CB5FF71EB547898437EA19 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/build;
-			};
-			name = MinSizeRel;
-		};
-		5859E57495254099A134C88D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/build;
-			};
-			name = Release;
-		};
-		691D8EAD71484DD1B4A96396 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/Release;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/.,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_convertUTF;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7A80BD754CA649A99356BF62 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		7E296CBA8C9B4BCBBD175745 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		AE76DF17442E4250B773A3F3 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/MinSizeRel;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/.,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_convertUTF;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		CA054F18B9A1470C9F38DF8F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		DE1C3EA723CA4883A117095C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		E79E1E3ACAE647EDABD7FDCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		FA22D2CBBCFC41C699D35EB3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/build;
-			};
-			name = RelWithDebInfo;
-		};
-		FC2ED765940C49A98C33B5C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/Debug;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Debug;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -662,7 +533,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/.,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
@@ -672,70 +543,199 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_convertUTF;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		FE9A0D179C5B4057A17E099E /* Debug */ = {
+		A71E3ED25D22491ABF651E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/ConvertUTF/build;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF/build;
 			};
 			name = Debug;
+		};
+		B2E4A88B448A41299117E880 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C1AAE5957ABC4611B4A38133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD9EFA5BB43343A994E7DF51 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F0A021E9ABA145619A7B90F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FCFFFA007AB54A8D99606BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FE9AE4335CDF4E529EC68817 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DBE92FA3F9E47FDB13DAB5E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		2131974AFD104EE28D6152B0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E79E1E3ACAE647EDABD7FDCE /* Debug */,
-				120338A0E75F4A72B4288F80 /* Release */,
-				CA054F18B9A1470C9F38DF8F /* MinSizeRel */,
-				325AA8DF5FB04D30A85723AC /* RelWithDebInfo */,
+				75C225DB331945DFAB5C1C20 /* Debug */,
+				FCFFFA007AB54A8D99606BC8 /* Release */,
+				DD9EFA5BB43343A994E7DF51 /* MinSizeRel */,
+				B2E4A88B448A41299117E880 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9F61A61852814E23AB3CA828 /* Build configuration list for PBXProject "convertUTF" */ = {
+		482B068DEBB6432EA0D127CC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE9A0D179C5B4057A17E099E /* Debug */,
-				5859E57495254099A134C88D /* Release */,
-				47CB5FF71EB547898437EA19 /* MinSizeRel */,
-				FA22D2CBBCFC41C699D35EB3 /* RelWithDebInfo */,
+				C1AAE5957ABC4611B4A38133 /* Debug */,
+				F0A021E9ABA145619A7B90F7 /* Release */,
+				71E08AA3ADCF48F0BB47C5E2 /* MinSizeRel */,
+				807A6FA294BC436F8EC64309 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BCCBA6539B9C460383CABC52 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		852EE0CE14E547A4AFDB8AF8 /* Build configuration list for PBXProject "convertUTF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E415057C2DF4E9395AD06F9 /* Debug */,
-				DE1C3EA723CA4883A117095C /* Release */,
-				7A80BD754CA649A99356BF62 /* MinSizeRel */,
-				7E296CBA8C9B4BCBBD175745 /* RelWithDebInfo */,
+				A71E3ED25D22491ABF651E7C /* Debug */,
+				6CEA87B5E1F148FC8E3EA4F4 /* Release */,
+				80BB17EF8B0B4B0CB8DBC821 /* MinSizeRel */,
+				1FF6121D89A04AFD825F0DF8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F360614FD84D4166A4983963 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+		E01A2F1D13574C50A4B4CD16 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC2ED765940C49A98C33B5C5 /* Debug */,
-				691D8EAD71484DD1B4A96396 /* Release */,
-				AE76DF17442E4250B773A3F3 /* MinSizeRel */,
-				099EEB65F1DA4190942056DB /* RelWithDebInfo */,
+				93B9041F66244E02B12D3A47 /* Debug */,
+				81A34F4F5B1F49959EF89CB9 /* Release */,
+				FE9AE4335CDF4E529EC68817 /* MinSizeRel */,
+				8EC5AC4E12E74C68B8B75F94 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E0FC8B8798CB46BEB7501200 /* Project object */;
+	rootObject = EC01E542F3034D59B5A822DE /* Project object */;
 }

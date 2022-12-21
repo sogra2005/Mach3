@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		4A7DF57DA2F84907B8271236 /* ZERO_CHECK */ = {
+		A2087236F5994E318FDE8199 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E0E8844B93494EE490C60C7C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = D9B4482C0E9B4708BE70936D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				B213E428983AEABACAEE9314 /* Generate CMakeFiles/ZERO_CHECK */,
+				3E1C3124745383F95EA92B8B /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		4FE75B91DF314CA99DF4FD84 /* ALL_BUILD */ = {
+		D2200741008E4506B3096D07 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 35416F5ECE6545EFBB707A3E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 1F00B4640A7B4B9D84E8CC9F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				2A68C8EFACA04AEC7307B21B /* Generate CMakeFiles/ALL_BUILD */,
+				A4ABF9152171BE9D70CA2FA9 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				44B0CBEA956A45AB81F5832F /* PBXTargetDependency */,
-				9CF526161658428ABC0FEF03 /* PBXTargetDependency */,
+				83C03755F3114680A889D3F9 /* PBXTargetDependency */,
+				1B95BC233C0B494DA13EC71D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,108 +34,108 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		08224B0A25F940D68EEF3AF2 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 5FD0EDF1C3CA453D84039B15 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
-		4898351F6420440CAA2F5CD0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 65A3D1EB43AF440689126366 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
-		4CCC8705EC764F3BBB21A3A9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 99B2EFEB56314F4FB6BE6F66 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
-		65C211A39ABE4C56A574444D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = F9C5039FA4994558AC96E7E9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
-		6982B11DDDBF495DA5193B82 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = C1ABD310537F4131BBF68C50 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
-		70183AB1CC32496187193EBD /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 5570B77070644572A25562C1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNode.cpp */; };
-		71D996826FA54E03BF8F7A84 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = CB9C108B26DD470B9F62E7B2 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
-		89201C63234947ACAECD0B9F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 585F3C7DCBB94C98BB341D2A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
-		92146CD0AF344514B2E650DE /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 1E1B00D7B69D4154BBA04523 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
-		92903B6FC8DB4B52A83DCD92 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 63EE6A24CD2A4897AFFDDA14 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/fastlz/fastlz.c */; };
-		9352B74B628342A4B02F4D92 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C0BF2CEB368B4A0C98BDE94A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/CMakeLists.txt */; };
-		A34868AD495D4A07B4F1D037 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 2854514A3A5D4366B6E800B7 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
-		B7C37931F2444B7AAE3208A8 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 4DBD47C80BC040698599C09F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
-		B84AF8E02B724EF6B6574BDF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = F5FED8311639414994116B9D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
-		BD0C5FB6DEC64EA88BB2946E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = CC174256929F434E959EBCC3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
-		C800EB887D634E4EA2821BA0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = F1834361903E4435BFE20EBF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
-		CA8D4366347C4449993CC869 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 062D7B7F90E94696BCBB9ECF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
-		DEDB191AC3B240428A85DFBF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = 2243C48E11004AA989027160 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
-		EAA2CAF076C64667AE440AC9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 14C84226CAE145DFA3670C11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		2524E516E0364134AD47921F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3613093345584BA5B41B757B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/CMakeLists.txt */; };
+		25EA3096D82E4C1B99748BC4 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 5F5D95E91F0C4B868F1A1D11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		32148FB5E17E4B8D89241CF2 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = D1F17C0E90B84C2B8DFA2514 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		3D5CC50ED3F54CF680E8C8B9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = B22ED318EBCF48B8AFCE8AD6 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		40AEC94417E2416183F0E8B0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 60E7C2F42C8645A6850941EF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		4CB3A06661BD4204BB53CC27 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = D3EBF445EDF248EDA8AE0436 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		4E37BD57C38842B28E2A3409 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = 236F6542AE7342F1869556E6 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		570A19C600E043599CF5D05B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = A7BEDC5B6B0643F39C6901FC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		645B2945FFC44C1FA91BF3E3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 75885C8CD4354EA2BB1876D3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		668655662F5D41B88572226A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = E0D276DD35F4435AA9C0D8CB /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		89666AD6F124492D89C25291 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 99E918CE4C324F47BD5531B9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		8A4BA2E70CD24858B953372B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 5C62C4BF6B2B445283548609 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		A894A807CD114549B59B6D5E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 1ABD4B7D8B8D443ABCE7C99D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		AC740123067B43AAB539A0FF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = EE88D8D3071046D4A30C4CE0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		B707BEDB8C8A41579D5CDD6D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 2BDEFEBB5F9840D5BE31A49B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/fastlz/fastlz.c */; };
+		C0F77C65481A4B4FA675A30F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 7DB02584B6BE440EB7CC5A46 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		D9B9937CFEB847269CBE1A39 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = BF8C3CA025F14DD7B2A61955 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		E5A5CC1049B643DC805D630E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 65B8BF02423B43248594F7A3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		E889957B896D4AE3ABE6DF11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 4E583422F9574FB8A68EF567 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		2D6A876C232347C48F794291 /* RelWithDebInfo */ = {
+		2BD0394695EA4658B031F3AD /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		B5C3505F78994470861050DF /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		E3D68624BD5341A39799FFB7 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		F806E1A08268424096F82F7C /* Release */ = {
+		9BEC68460C054AC4BEF19B8E /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		A63B961AF9D9402FB2BEACD9 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E30C6FA488E8471F8387E94B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		3DB667884FBE452A9B48C86C /* PBXContainerItemProxy */ = {
+		413733466A654937A6E2709A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B03D8B291BE34770A5118FB2 /* Project object */;
+			containerPortal = 2DDA70CB59F5408CA2B1C09C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A7DF57DA2F84907B8271236;
+			remoteGlobalIDString = A2087236F5994E318FDE8199;
 			remoteInfo = ZERO_CHECK;
 		};
-		5AC620E241564A1B80840C0F /* PBXContainerItemProxy */ = {
+		7C52753D1D4D4FEE90522647 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B03D8B291BE34770A5118FB2 /* Project object */;
+			containerPortal = 2DDA70CB59F5408CA2B1C09C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A7DF57DA2F84907B8271236;
+			remoteGlobalIDString = A2087236F5994E318FDE8199;
 			remoteInfo = ZERO_CHECK;
 		};
-		DBC92C9836A64E799C44ECC7 /* PBXContainerItemProxy */ = {
+		8D10B5998E58452FA715186F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B03D8B291BE34770A5118FB2 /* Project object */;
+			containerPortal = 2DDA70CB59F5408CA2B1C09C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 249F003D989E426BB122E622;
+			remoteGlobalIDString = 0DBFC463B5A64519BF02AF5A;
 			remoteInfo = ext_recast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062D7B7F90E94696BCBB9ECF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
-		14C84226CAE145DFA3670C11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
-		1E1B00D7B69D4154BBA04523 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
-		2243C48E11004AA989027160 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
-		2854514A3A5D4366B6E800B7 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
-		4DBD47C80BC040698599C09F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist; sourceTree = "<absolute>"; };
-		4E2825EC36D84A3A81390B02 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5570B77070644572A25562C1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
-		585F3C7DCBB94C98BB341D2A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
-		5FD0EDF1C3CA453D84039B15 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
-		63EE6A24CD2A4897AFFDDA14 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
-		65A3D1EB43AF440689126366 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
-		887FC5E58636492AA34D7736 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		99B2EFEB56314F4FB6BE6F66 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
-		C0BF2CEB368B4A0C98BDE94A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C1ABD310537F4131BBF68C50 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
-		CB9C108B26DD470B9F62E7B2 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
-		CC174256929F434E959EBCC3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
-		F1834361903E4435BFE20EBF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
-		F5FED8311639414994116B9D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
-		F9C5039FA4994558AC96E7E9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		1ABD4B7D8B8D443ABCE7C99D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		236F6542AE7342F1869556E6 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		2BDEFEBB5F9840D5BE31A49B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		3613093345584BA5B41B757B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E583422F9574FB8A68EF567 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		5C62C4BF6B2B445283548609 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		5F5D95E91F0C4B868F1A1D11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		60E7C2F42C8645A6850941EF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		65B8BF02423B43248594F7A3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		75885C8CD4354EA2BB1876D3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist; sourceTree = "<absolute>"; };
+		7DB02584B6BE440EB7CC5A46 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		85B9DAA81329434996D55746 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		99E918CE4C324F47BD5531B9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		A0E0E6BA321B4874AB16CBA5 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BEDC5B6B0643F39C6901FC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		B22ED318EBCF48B8AFCE8AD6 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		BF8C3CA025F14DD7B2A61955 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		D1F17C0E90B84C2B8DFA2514 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		D3EBF445EDF248EDA8AE0436 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		E0D276DD35F4435AA9C0D8CB /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		EE88D8D3071046D4A30C4CE0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		665A88D50F7E42DEB8DE77D5 /* Frameworks */ = {
+		FF0ABE6B3BEE4B6095045856 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,182 +145,149 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48742062992548F18260DB24 = {
+		0232B37BFE684925AAE7BC30 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EF32C0E90D984BACBC58D9A4 /* External */,
-				64817858AF2B4405806981A6 /* ALL_BUILD */,
-				AF7604B92B7F431BB5132EB0 /* Products */,
-				5A1E285CDD9D4787BAB5B416 /* Frameworks */,
+				75885C8CD4354EA2BB1876D3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
 			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		5A1E285CDD9D4787BAB5B416 /* Frameworks */ = {
+		0C3DEE8A5AE642E997B3BDEB /* External */ = {
 			isa = PBXGroup;
 			children = (
+				53DEBADBA26749DAAD71C324 /* ext_recast */,
 			);
-			name = Frameworks;
+			name = External;
 			sourceTree = "<group>";
 		};
-		64817858AF2B4405806981A6 /* ALL_BUILD */ = {
+		36AA0270411144E286586494 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				9DBD2834F7C7457497B27FD7 /* CMake Rules */,
-				4E2825EC36D84A3A81390B02 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/CMakeLists.txt */,
+				A18EC6868F9042B797BAA710 /* CMake Rules */,
+				85B9DAA81329434996D55746 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		6D1C6FBCE6754AFD86092BF6 /* ext_recast */ = {
+		3C7A77BDD4BC472E8686E268 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBDFC6FB65A44E61BB596C68 /* Source Files */,
-				D0185B2E9FAF45CCAC3BEB45 /* Resources */,
-				C0BF2CEB368B4A0C98BDE94A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/CMakeLists.txt */,
+				D1F17C0E90B84C2B8DFA2514 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				5F5D95E91F0C4B868F1A1D11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				BF8C3CA025F14DD7B2A61955 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				5C62C4BF6B2B445283548609 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				D3EBF445EDF248EDA8AE0436 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				60E7C2F42C8645A6850941EF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				B22ED318EBCF48B8AFCE8AD6 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				99E918CE4C324F47BD5531B9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				E0D276DD35F4435AA9C0D8CB /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				4E583422F9574FB8A68EF567 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				A7BEDC5B6B0643F39C6901FC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				65B8BF02423B43248594F7A3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				236F6542AE7342F1869556E6 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				7DB02584B6BE440EB7CC5A46 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				EE88D8D3071046D4A30C4CE0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				1ABD4B7D8B8D443ABCE7C99D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				2BDEFEBB5F9840D5BE31A49B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		53DEBADBA26749DAAD71C324 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A77BDD4BC472E8686E268 /* Source Files */,
+				0232B37BFE684925AAE7BC30 /* Resources */,
+				3613093345584BA5B41B757B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/CMakeLists.txt */,
 			);
 			name = ext_recast;
 			sourceTree = "<group>";
 		};
-		9DBD2834F7C7457497B27FD7 /* CMake Rules */ = {
+		76DBCC9210384822A87DB43F = {
+			isa = PBXGroup;
+			children = (
+				0C3DEE8A5AE642E997B3BDEB /* External */,
+				36AA0270411144E286586494 /* ALL_BUILD */,
+				93BEB39C59F345B29038F605 /* Products */,
+				DAE8C9EE327548EC846ED040 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93BEB39C59F345B29038F605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E0E6BA321B4874AB16CBA5 /* ext_recast */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18EC6868F9042B797BAA710 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		AF7604B92B7F431BB5132EB0 /* Products */ = {
+		DAE8C9EE327548EC846ED040 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				887FC5E58636492AA34D7736 /* ext_recast */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CBDFC6FB65A44E61BB596C68 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				14C84226CAE145DFA3670C11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
-				C1ABD310537F4131BBF68C50 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
-				F5FED8311639414994116B9D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
-				1E1B00D7B69D4154BBA04523 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourCommon.cpp */,
-				5FD0EDF1C3CA453D84039B15 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
-				CB9C108B26DD470B9F62E7B2 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
-				65A3D1EB43AF440689126366 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
-				5570B77070644572A25562C1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNode.cpp */,
-				585F3C7DCBB94C98BB341D2A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
-				F9C5039FA4994558AC96E7E9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
-				CC174256929F434E959EBCC3 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
-				99B2EFEB56314F4FB6BE6F66 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
-				2243C48E11004AA989027160 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
-				062D7B7F90E94696BCBB9ECF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
-				F1834361903E4435BFE20EBF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
-				2854514A3A5D4366B6E800B7 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
-				63EE6A24CD2A4897AFFDDA14 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/fastlz/fastlz.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		D0185B2E9FAF45CCAC3BEB45 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4DBD47C80BC040698599C09F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		EF32C0E90D984BACBC58D9A4 /* External */ = {
-			isa = PBXGroup;
-			children = (
-				6D1C6FBCE6754AFD86092BF6 /* ext_recast */,
-			);
-			name = External;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		249F003D989E426BB122E622 /* ext_recast */ = {
+		0DBFC463B5A64519BF02AF5A /* ext_recast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A827341087E140E7AFB3E8C8 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildConfigurationList = D3A25CB410EA42E19E40DC6D /* Build configuration list for PBXNativeTarget "ext_recast" */;
 			buildPhases = (
-				7B7B860471AE49AABEC77C38 /* Sources */,
-				665A88D50F7E42DEB8DE77D5 /* Frameworks */,
+				9D992C899EC94CB5980EF960 /* Sources */,
+				FF0ABE6B3BEE4B6095045856 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4DECE83B8310446F9080A891 /* PBXTargetDependency */,
+				1A3A50C84A72412787F0CA46 /* PBXTargetDependency */,
 			);
 			name = ext_recast;
 			productName = ext_recast;
-			productReference = 887FC5E58636492AA34D7736 /* ext_recast */;
+			productReference = A0E0E6BA321B4874AB16CBA5 /* ext_recast */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B03D8B291BE34770A5118FB2 /* Project object */ = {
+		2DDA70CB59F5408CA2B1C09C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 			};
-			buildConfigurationList = 15BEC37F964D4E21B0E7747F /* Build configuration list for PBXProject "recast" */;
+			buildConfigurationList = AE3C9679BBCA48799C952401 /* Build configuration list for PBXProject "recast" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				B5C3505F78994470861050DF /* Debug */,
-				F806E1A08268424096F82F7C /* Release */,
-				E3D68624BD5341A39799FFB7 /* MinSizeRel */,
-				2D6A876C232347C48F794291 /* RelWithDebInfo */,
+				E30C6FA488E8471F8387E94B /* Debug */,
+				9BEC68460C054AC4BEF19B8E /* Release */,
+				A63B961AF9D9402FB2BEACD9 /* MinSizeRel */,
+				2BD0394695EA4658B031F3AD /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 48742062992548F18260DB24;
-			projectDirPath = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast;
+			mainGroup = 76DBCC9210384822A87DB43F;
+			projectDirPath = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast;
 			projectRoot = "";
 			targets = (
-				4FE75B91DF314CA99DF4FD84 /* ALL_BUILD */,
-				4A7DF57DA2F84907B8271236 /* ZERO_CHECK */,
-				249F003D989E426BB122E622 /* ext_recast */,
+				D2200741008E4506B3096D07 /* ALL_BUILD */,
+				A2087236F5994E318FDE8199 /* ZERO_CHECK */,
+				0DBFC463B5A64519BF02AF5A /* ext_recast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A68C8EFACA04AEC7307B21B /* Generate CMakeFiles/ALL_BUILD */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ALL_BUILD";
-			outputPaths = (
-/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeFiles/ALL_BUILD			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 		3C0110FC8322DE7E50886E21 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +301,39 @@ fi
 			shellPath = /bin/sh;
 			shellScript = "# shell script goes here
 exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3E1C3124745383F95EA92B8B /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+fi
+";
 			showEnvVarsInLog = 0;
 		};
 		9B50530E35CC49C82C2FACCF = {
@@ -351,7 +351,7 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		B213E428983AEABACAEE9314 /* Generate CMakeFiles/ZERO_CHECK */ = {
+		A4ABF9152171BE9D70CA2FA9 /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -359,27 +359,27 @@ exit 0";
 			);
 			inputPaths = (
 			);
-			name = "Generate CMakeFiles/ZERO_CHECK";
+			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeFiles/ZERO_CHECK			);
+/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/CMakeFiles/ALL_BUILD			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast
-  make -f /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/CMakeScripts/ReRunCMake.make
+  cd /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast
+  echo Build\\ all\\ projects
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -387,62 +387,52 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7B7B860471AE49AABEC77C38 /* Sources */ = {
+		9D992C899EC94CB5980EF960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAA2CAF076C64667AE440AC9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
-				6982B11DDDBF495DA5193B82 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
-				B84AF8E02B724EF6B6574BDF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
-				92146CD0AF344514B2E650DE /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourCommon.cpp */,
-				08224B0A25F940D68EEF3AF2 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
-				71D996826FA54E03BF8F7A84 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
-				4898351F6420440CAA2F5CD0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
-				70183AB1CC32496187193EBD /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/Detour/DetourNode.cpp */,
-				89201C63234947ACAECD0B9F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
-				65C211A39ABE4C56A574444D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
-				BD0C5FB6DEC64EA88BB2946E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
-				4CCC8705EC764F3BBB21A3A9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
-				DEDB191AC3B240428A85DFBF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
-				CA8D4366347C4449993CC869 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
-				C800EB887D634E4EA2821BA0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
-				A34868AD495D4A07B4F1D037 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
-				92903B6FC8DB4B52A83DCD92 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/fastlz/fastlz.c */,
+				32148FB5E17E4B8D89241CF2 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				25EA3096D82E4C1B99748BC4 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				D9B9937CFEB847269CBE1A39 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				8A4BA2E70CD24858B953372B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				4CB3A06661BD4204BB53CC27 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				40AEC94417E2416183F0E8B0 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				3D5CC50ED3F54CF680E8C8B9 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				89666AD6F124492D89C25291 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				668655662F5D41B88572226A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				E889957B896D4AE3ABE6DF11 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				570A19C600E043599CF5D05B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				E5A5CC1049B643DC805D630E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				4E37BD57C38842B28E2A3409 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				C0F77C65481A4B4FA675A30F /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				AC740123067B43AAB539A0FF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				A894A807CD114549B59B6D5E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				B707BEDB8C8A41579D5CDD6D /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/fastlz/fastlz.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44B0CBEA956A45AB81F5832F /* PBXTargetDependency */ = {
+		1A3A50C84A72412787F0CA46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 249F003D989E426BB122E622 /* ext_recast */;
-			targetProxy = DBC92C9836A64E799C44ECC7 /* PBXContainerItemProxy */;
+			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
+			targetProxy = 413733466A654937A6E2709A /* PBXContainerItemProxy */;
 		};
-		4DECE83B8310446F9080A891 /* PBXTargetDependency */ = {
+		1B95BC233C0B494DA13EC71D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A7DF57DA2F84907B8271236 /* ZERO_CHECK */;
-			targetProxy = 3DB667884FBE452A9B48C86C /* PBXContainerItemProxy */;
+			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
+			targetProxy = 7C52753D1D4D4FEE90522647 /* PBXContainerItemProxy */;
 		};
-		9CF526161658428ABC0FEF03 /* PBXTargetDependency */ = {
+		83C03755F3114680A889D3F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A7DF57DA2F84907B8271236 /* ZERO_CHECK */;
-			targetProxy = 5AC620E241564A1B80840C0F /* PBXContainerItemProxy */;
+			target = 0DBFC463B5A64519BF02AF5A /* ext_recast */;
+			targetProxy = 8D10B5998E58452FA715186F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C5E946311B844168B634A53 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/build;
-			};
-			name = RelWithDebInfo;
-		};
-		253C535DEA3C4B0C8149D478 /* MinSizeRel */ = {
+		02509CAF41A649259CDC25C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -456,165 +446,17 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		2C97656A835D4AB391B9C791 /* RelWithDebInfo */ = {
+		23D4719C8D83405CA0A84C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		30F4047B07184FE591BC45BC /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		47813B91CA1E4350898996A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/build;
-			};
-			name = Release;
-		};
-		5B7192C49F684D9EBEE1DDDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		6B0144916807496FA475B507 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/MinSizeRel;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/..,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_recast;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		7FC723CE91A64065A9D07C0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		8CDDF6873E134890982C8010 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/RelWithDebInfo;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/..,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_recast;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		9A92170806EF4C7D8990E8E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/Debug;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Debug;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -623,7 +465,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/..,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/..,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
@@ -633,23 +475,23 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_recast;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		9C65347353B94821A335AA08 /* Debug */ = {
+		51B29652566942E89205E598 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/build;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/build;
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		B0E4971D7CDD411C9770E204 /* Debug */ = {
+		51F6B378C7A747E69C7348A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -663,13 +505,13 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		B95CBBA16AA34DDF9552C8B0 /* RelWithDebInfo */ = {
+		6B831D1899764351A4043934 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -683,36 +525,26 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		C96126F33535453EB9B24A09 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast/build;
-			};
-			name = MinSizeRel;
-		};
-		C9D503E71DE4422299DD89D8 /* Release */ = {
+		6D63FC8D3BF04D7C999324B5 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/lib/Release;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/MinSizeRel;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/external/recast/..,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/..,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
@@ -722,13 +554,23 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_recast;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		C9E0CA21AEB64AB3A906A5E4 /* Debug */ = {
+		796E090984F84157BE739169 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/build;
+			};
+			name = MinSizeRel;
+		};
+		89F886887C504E6396A7494C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -742,60 +584,218 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/recast;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Release;
+		};
+		925FB96E57C64BBBB75E3725 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		97B5ACEA2491456FA333E394 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CB7DD7FF6F8043C58655EC29 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1C681905AF24CC08187A35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DFC3A17F9BD048CC821BC0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/build;
+			};
 			name = Debug;
+		};
+		E61CF1ED9035451A989F876B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7DD32FA8AF04E0689EA908D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast/build;
+			};
+			name = Release;
+		};
+		FF6766B4324D42B5A6CA138B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15BEC37F964D4E21B0E7747F /* Build configuration list for PBXProject "recast" */ = {
+		1F00B4640A7B4B9D84E8CC9F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C65347353B94821A335AA08 /* Debug */,
-				47813B91CA1E4350898996A6 /* Release */,
-				C96126F33535453EB9B24A09 /* MinSizeRel */,
-				1C5E946311B844168B634A53 /* RelWithDebInfo */,
+				02509CAF41A649259CDC25C9 /* Debug */,
+				89F886887C504E6396A7494C /* Release */,
+				E61CF1ED9035451A989F876B /* MinSizeRel */,
+				CB7DD7FF6F8043C58655EC29 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		35416F5ECE6545EFBB707A3E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		AE3C9679BBCA48799C952401 /* Build configuration list for PBXProject "recast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9E0CA21AEB64AB3A906A5E4 /* Debug */,
-				5B7192C49F684D9EBEE1DDDE /* Release */,
-				253C535DEA3C4B0C8149D478 /* MinSizeRel */,
-				2C97656A835D4AB391B9C791 /* RelWithDebInfo */,
+				DFC3A17F9BD048CC821BC0BF /* Debug */,
+				E7DD32FA8AF04E0689EA908D /* Release */,
+				796E090984F84157BE739169 /* MinSizeRel */,
+				51B29652566942E89205E598 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A827341087E140E7AFB3E8C8 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+		D3A25CB410EA42E19E40DC6D /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A92170806EF4C7D8990E8E8 /* Debug */,
-				C9D503E71DE4422299DD89D8 /* Release */,
-				6B0144916807496FA475B507 /* MinSizeRel */,
-				8CDDF6873E134890982C8010 /* RelWithDebInfo */,
+				23D4719C8D83405CA0A84C88 /* Debug */,
+				FF6766B4324D42B5A6CA138B /* Release */,
+				6D63FC8D3BF04D7C999324B5 /* MinSizeRel */,
+				97B5ACEA2491456FA333E394 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E0E8844B93494EE490C60C7C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		D9B4482C0E9B4708BE70936D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0E4971D7CDD411C9770E204 /* Debug */,
-				7FC723CE91A64065A9D07C0A /* Release */,
-				30F4047B07184FE591BC45BC /* MinSizeRel */,
-				B95CBBA16AA34DDF9552C8B0 /* RelWithDebInfo */,
+				51F6B378C7A747E69C7348A6 /* Debug */,
+				D1C681905AF24CC08187A35D /* Release */,
+				925FB96E57C64BBBB75E3725 /* MinSizeRel */,
+				6B831D1899764351A4043934 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B03D8B291BE34770A5118FB2 /* Project object */;
+	rootObject = 2DDA70CB59F5408CA2B1C09C /* Project object */;
 }

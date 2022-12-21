@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/cocos2d/cocos
+# Install script for directory: /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/cocos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS")
+set(CMAKE_BINARY_DIR "/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS")
 
 if(NOT PLATFORM_NAME)
   if(NOT "$ENV{PLATFORM_NAME}" STREQUAL "")
@@ -59,7 +59,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/alexandr_broslavsky/Desktop/Cocos/Mach3Game/Mach3Game/Build_iOS/engine/external/cmake_install.cmake")
+  include("/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/cmake_install.cmake")
 
 endif()
 
