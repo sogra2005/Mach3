@@ -22,6 +22,7 @@ namespace Match3Game::Model
         void Init(std::size_t xSize, std::size_t ySize) override;
     public:
         ItemPtr GetItem(std::size_t idx) const override;
+        std::size_t Count() const override;
     private:
         std::vector<ItemPtr> _items;
     };

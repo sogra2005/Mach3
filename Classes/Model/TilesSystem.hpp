@@ -22,6 +22,7 @@ namespace Match3Game::Model
         virtual void Init(std::size_t xSize, std::size_t ySize) = 0;
     public:
         virtual ItemPtr GetItem(std::size_t idx) const = 0;
+        virtual std::size_t Count() const = 0;
     };
 }
 

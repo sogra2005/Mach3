@@ -11,7 +11,7 @@
 #include <new>
 #include <utility>
 
-namespace Match3Game::Component
+namespace Match3Game::Utils
 {
     template<class T, class... Args>
     T* Create(Args&&... args)

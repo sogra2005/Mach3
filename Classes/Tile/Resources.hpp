@@ -19,12 +19,14 @@ namespace Match3Game::Tile
         Crystal2,
         Crystal3,
         Crystal4,
-        Crystal5,
         End
     };
 
-    static const char* GetName(SpriteType type);
-    std::optional<SpriteType> GetType(const char* name);
+    struct Resources
+    {
+        static const char* GetName(SpriteType type);
+        static const std::optional<SpriteType> GetType(const char* name);
+    };
 }
 
 #endif /* Resources_hpp */

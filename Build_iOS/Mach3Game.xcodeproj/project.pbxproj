@@ -370,13 +370,15 @@
 		785521EE29536C7B005EC0D1 /* TileComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 785521E129536C79005EC0D1 /* TileComponent.cpp */; };
 		785521EF29536C7B005EC0D1 /* Resources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 785521E229536C79005EC0D1 /* Resources.cpp */; };
 		785521F029536C7B005EC0D1 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 785521E729536C7A005EC0D1 /* AppDelegate.cpp */; };
-		785521F629536C9B005EC0D1 /* crystal5.png in Resources */ = {isa = PBXBuildFile; fileRef = 785521F129536C99005EC0D1 /* crystal5.png */; };
-		785521F729536C9B005EC0D1 /* crystal0.png in Resources */ = {isa = PBXBuildFile; fileRef = 785521F229536C9A005EC0D1 /* crystal0.png */; };
-		785521F829536C9B005EC0D1 /* crystal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 785521F329536C9A005EC0D1 /* crystal1.png */; };
-		785521F929536C9B005EC0D1 /* crystal2.png in Resources */ = {isa = PBXBuildFile; fileRef = 785521F429536C9A005EC0D1 /* crystal2.png */; };
-		785521FA29536C9B005EC0D1 /* crystal3.png in Resources */ = {isa = PBXBuildFile; fileRef = 785521F529536C9B005EC0D1 /* crystal3.png */; };
+		785521F729536C9B005EC0D1 /* crystal0.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 785521F229536C9A005EC0D1 /* crystal0.png */; };
+		785521F829536C9B005EC0D1 /* crystal1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 785521F329536C9A005EC0D1 /* crystal1.png */; };
+		785521F929536C9B005EC0D1 /* crystal2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 785521F429536C9A005EC0D1 /* crystal2.png */; };
+		785521FA29536C9B005EC0D1 /* crystal3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 785521F529536C9B005EC0D1 /* crystal3.png */; };
 		785521FD29536EF8005EC0D1 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 785521FB29536EF8005EC0D1 /* Game.cpp */; };
 		7855220529537A32005EC0D1 /* RandomGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7855220329537A32005EC0D1 /* RandomGenerator.cpp */; };
+		78552209295382B4005EC0D1 /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78552207295382B4005EC0D1 /* Context.cpp */; };
+		7855220C295383B9005EC0D1 /* FieldComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7855220A295383B9005EC0D1 /* FieldComponent.cpp */; };
+		7855220E295393C1005EC0D1 /* crystal4.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7855220D295393C1005EC0D1 /* crystal4.png */; };
 		78EEF71DD4B24029A6FC98D1 /* CCControlSaturationBrightnessPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6867B693D42F4FB9ACC74BBC /* CCControlSaturationBrightnessPicker.cpp */; };
 		799BAC8F74FB4A7EB6B0C07F /* CCUtilMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B252C0D48E38CE1C6B7 /* CCUtilMath.cpp */; };
 		7A572F0CA92546A5A3A58122 /* CCParticle3DEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18319ED6E43F42C59FA656FC /* CCParticle3DEmitter.cpp */; };
@@ -1055,6 +1057,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				7855220E295393C1005EC0D1 /* crystal4.png in CopyFiles */,
+				785521F929536C9B005EC0D1 /* crystal2.png in CopyFiles */,
+				785521F729536C9B005EC0D1 /* crystal0.png in CopyFiles */,
+				785521F829536C9B005EC0D1 /* crystal1.png in CopyFiles */,
+				785521FA29536C9B005EC0D1 /* crystal3.png in CopyFiles */,
 				068992759C054387A40CF810 /* CloseNormal.png in CopyFiles */,
 				681ED30BCF42474D99221BF5 /* CloseSelected.png in CopyFiles */,
 				18A2960D2A0149FD9C678338 /* HelloWorld.png in CopyFiles */,
@@ -1741,11 +1748,10 @@
 		785521E329536C79005EC0D1 /* Resources.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Resources.hpp; sourceTree = "<group>"; };
 		785521E429536C79005EC0D1 /* TileComponent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TileComponent.hpp; sourceTree = "<group>"; };
 		785521E529536C79005EC0D1 /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GameScene.hpp; path = Classes/GameScene.hpp; sourceTree = "<group>"; };
-		785521E629536C7A005EC0D1 /* ComponentHelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ComponentHelper.hpp; path = Classes/ComponentHelper.hpp; sourceTree = "<group>"; };
+		785521E629536C7A005EC0D1 /* ComponentHelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ComponentHelper.hpp; sourceTree = "<group>"; };
 		785521E729536C7A005EC0D1 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		785521E829536C7A005EC0D1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		785521E929536C7A005EC0D1 /* SceneContext.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SceneContext.hpp; path = Classes/SceneContext.hpp; sourceTree = "<group>"; };
-		785521F129536C99005EC0D1 /* crystal5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystal5.png; path = Resources/crystal5.png; sourceTree = "<group>"; };
 		785521F229536C9A005EC0D1 /* crystal0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystal0.png; path = Resources/crystal0.png; sourceTree = "<group>"; };
 		785521F329536C9A005EC0D1 /* crystal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystal1.png; path = Resources/crystal1.png; sourceTree = "<group>"; };
 		785521F429536C9A005EC0D1 /* crystal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystal2.png; path = Resources/crystal2.png; sourceTree = "<group>"; };
@@ -1754,6 +1760,11 @@
 		785521FC29536EF8005EC0D1 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		7855220329537A32005EC0D1 /* RandomGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomGenerator.cpp; sourceTree = "<group>"; };
 		7855220429537A32005EC0D1 /* RandomGenerator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RandomGenerator.hpp; sourceTree = "<group>"; };
+		78552207295382B4005EC0D1 /* Context.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Context.cpp; path = Classes/GameField/Context.cpp; sourceTree = SOURCE_ROOT; };
+		78552208295382B4005EC0D1 /* Context.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Context.hpp; path = Classes/GameField/Context.hpp; sourceTree = SOURCE_ROOT; };
+		7855220A295383B9005EC0D1 /* FieldComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FieldComponent.cpp; path = Classes/GameField/FieldComponent.cpp; sourceTree = SOURCE_ROOT; };
+		7855220B295383B9005EC0D1 /* FieldComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = FieldComponent.hpp; path = Classes/GameField/FieldComponent.hpp; sourceTree = SOURCE_ROOT; };
+		7855220D295393C1005EC0D1 /* crystal4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystal4.png; path = Resources/crystal4.png; sourceTree = "<group>"; };
 		7884AAD376804C77ADBDBBD0 /* SkeletonBatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SkeletonBatch.cpp; path = "cocos2d/cocos/editor-support/spine/v4/SkeletonBatch.cpp"; sourceTree = SOURCE_ROOT; };
 		78A61E34307C4A5ABD676052 /* CCTableView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTableView.cpp; path = cocos2d/extensions/GUI/CCScrollView/CCTableView.cpp; sourceTree = SOURCE_ROOT; };
 		79CA8BC702FF487C9A2827FA /* CCTextureCube.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCTextureCube.h; path = cocos2d/cocos/renderer/CCTextureCube.h; sourceTree = SOURCE_ROOT; };
@@ -3535,7 +3546,7 @@
 				785521F329536C9A005EC0D1 /* crystal1.png */,
 				785521F429536C9A005EC0D1 /* crystal2.png */,
 				785521F529536C9B005EC0D1 /* crystal3.png */,
-				785521F129536C99005EC0D1 /* crystal5.png */,
+				7855220D295393C1005EC0D1 /* crystal4.png */,
 				D8E2B3F1E168499DA59ED607 /* CloseNormal.png */,
 				F6C612392CDD4441AB3E107B /* CloseSelected.png */,
 				3F52010E3A2B4BB6A3F99F5F /* HelloWorld.png */,
@@ -3692,9 +3703,9 @@
 			isa = PBXGroup;
 			children = (
 				785521E129536C79005EC0D1 /* TileComponent.cpp */,
+				785521E429536C79005EC0D1 /* TileComponent.hpp */,
 				785521E229536C79005EC0D1 /* Resources.cpp */,
 				785521E329536C79005EC0D1 /* Resources.hpp */,
-				785521E429536C79005EC0D1 /* TileComponent.hpp */,
 			);
 			name = Tile;
 			path = Classes/Tile;
@@ -3703,10 +3714,22 @@
 		7855220229537A13005EC0D1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				785521E629536C7A005EC0D1 /* ComponentHelper.hpp */,
 				7855220329537A32005EC0D1 /* RandomGenerator.cpp */,
 				7855220429537A32005EC0D1 /* RandomGenerator.hpp */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		785522062953824B005EC0D1 /* GameField */ = {
+			isa = PBXGroup;
+			children = (
+				78552207295382B4005EC0D1 /* Context.cpp */,
+				78552208295382B4005EC0D1 /* Context.hpp */,
+				7855220A295383B9005EC0D1 /* FieldComponent.cpp */,
+				7855220B295383B9005EC0D1 /* FieldComponent.hpp */,
+			);
+			path = GameField;
 			sourceTree = "<group>";
 		};
 		7885ADE979B04A1DAABE87E3 /* Resources */ = {
@@ -3765,12 +3788,12 @@
 		7CA6CE17468F4A80AB557A5B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				785522062953824B005EC0D1 /* GameField */,
 				7855220229537A13005EC0D1 /* Utils */,
 				785521E029536C79005EC0D1 /* Tile */,
 				785521D829536C78005EC0D1 /* Model */,
 				785521E729536C7A005EC0D1 /* AppDelegate.cpp */,
 				785521E829536C7A005EC0D1 /* AppDelegate.h */,
-				785521E629536C7A005EC0D1 /* ComponentHelper.hpp */,
 				785521D729536C78005EC0D1 /* GameScene.cpp */,
 				785521E529536C79005EC0D1 /* GameScene.hpp */,
 				785521DF29536C79005EC0D1 /* SceneContext.cpp */,
@@ -5257,14 +5280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				785521F929536C9B005EC0D1 /* crystal2.png in Resources */,
 				6BA5CBF3DD3A4232919C79CD /* Images.xcassets in Resources */,
 				3DBD435D79EE457AA105AC4B /* LaunchScreen.storyboard in Resources */,
-				785521F829536C9B005EC0D1 /* crystal1.png in Resources */,
-				785521FA29536C9B005EC0D1 /* crystal3.png in Resources */,
-				785521F629536C9B005EC0D1 /* crystal5.png in Resources */,
 				199AE174EC1C4F97AE3C11E9 /* LaunchScreenBackground.png in Resources */,
-				785521F729536C9B005EC0D1 /* crystal0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5993,7 +6011,9 @@
 				785521EA29536C7B005EC0D1 /* GameScene.cpp in Sources */,
 				637EC97ACABB43F2AFCA6C3D /* AppDelegate.cpp in Sources */,
 				785521FD29536EF8005EC0D1 /* Game.cpp in Sources */,
+				78552209295382B4005EC0D1 /* Context.cpp in Sources */,
 				75D2DD63F5DB4C46A4A7B28A /* AppController.mm in Sources */,
+				7855220C295383B9005EC0D1 /* FieldComponent.cpp in Sources */,
 				785521EE29536C7B005EC0D1 /* TileComponent.cpp in Sources */,
 				785521ED29536C7B005EC0D1 /* SceneContext.cpp in Sources */,
 				E7B9B21EDD1C4EBDAB5B7113 /* RootViewController.mm in Sources */,
@@ -6708,6 +6728,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Classes,
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/cocos/audio/include,
@@ -6997,6 +7018,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Classes,
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/cocos/audio/include,
@@ -7340,6 +7362,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Classes,
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/cocos/audio/include,
@@ -8098,6 +8121,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Classes,
 					/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/cocos/audio/include,

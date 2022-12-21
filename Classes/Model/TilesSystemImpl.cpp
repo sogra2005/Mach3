@@ -12,7 +12,7 @@
 #include "../Tile/Resources.hpp"
 #include "../Utils/RandomGenerator.hpp"
 
-#define PIXIL_SIZE_BLOCK 72
+#define PIXIL_SIZE_BLOCK 30
 #define SCALE_BLOCK 1
 
 namespace Match3Game::Model
@@ -43,7 +43,7 @@ namespace Match3Game::Model
                                         (xSize + 1)) / 2 + PIXIL_SIZE_BLOCK * SCALE_BLOCK * x;
                 
                 Vec2 pos = Vec2(local_x, local_y);
-                auto sprite = Tile::SpriteType(Utils::RandomGenerator::GetRandomInt(0, 5));
+                auto sprite = Tile::SpriteType(Utils::RandomGenerator::GetRandomInt(0, 4));
                 _items.push_back(std::make_shared<TileItem>(pos, sprite));
             }
         }
@@ -52,5 +52,10 @@ namespace Match3Game::Model
     auto TilesSystem::GetItem(std::size_t idx) const -> ItemPtr
     {
         return _items[idx];
+    }
+
+    std::size_t TilesSystem::Count() const
+    {
+        return _items.size();
     }
 }

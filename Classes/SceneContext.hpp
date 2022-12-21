@@ -15,6 +15,11 @@ namespace Match3Game::Model
     class Game;
 }
 
+namespace Match3Game::GameField
+{
+    class Context;
+}
+
 namespace Match3Game::SceneContext
 {
     class SceneContext : public cocos2d::Component
@@ -28,9 +33,11 @@ namespace Match3Game::SceneContext
         using GamePtr = std::shared_ptr<Model::Game>;
         void CreateGame();
     private:
-        void InitNewGame();
+        using GameFieldContextPtr = std::shared_ptr<GameField::Context>;
+        void CreateGameFieldContext();
     private:
         GamePtr _game;
+        GameFieldContextPtr _gameFieldContext;
     };
 }
 

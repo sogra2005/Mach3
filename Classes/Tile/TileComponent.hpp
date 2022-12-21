@@ -10,24 +10,28 @@
 
 #include "cocos2d.h"
 
+#include <memory>
+
+namespace Match3Game::Model
+{
+    class ITileItem;
+}
+
 namespace Match3Game::Tile
 {
     class TileComponent : public cocos2d::Component
     {
     public:
-        TileComponent();
+        TileComponent(cocos2d::Sprite *sprite);
     public:
         void onAdd() override;
         void onRemove() override;
     public:
-        cocos2d::Sprite *GetSprite() const;
-        void SetSprite(cocos2d::Sprite *sprite);
-    public:
-        cocos2d::Vec2 GetPosition() const;
-        void SetPosition(cocos2d::Vec2 pos);
+        using ItemPtr = std::shared_ptr<Model::ITileItem>;
+        void Set(const ItemPtr& item);
     private:
-        cocos2d::Vec2 _pos;
         cocos2d::Sprite *_sprite;
+        ItemPtr _item;
     };
 }
 

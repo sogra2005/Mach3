@@ -8,7 +8,7 @@
 #include "GameScene.hpp"
 
 #include "SceneContext.hpp"
-#include "ComponentHelper.hpp"
+#include "../Utils/ComponentHelper.hpp"
 
 USING_NS_CC;
 
@@ -57,7 +57,7 @@ bool GameScene::init()
 //        this->addChild(sprite, 0);
 //    }
     
-    this->addComponent(Match3Game::Component::Create<Match3Game::SceneContext::SceneContext>());
+    this->addComponent(Match3Game::Utils::Create<Match3Game::SceneContext::SceneContext>());
     
     return true;
 }

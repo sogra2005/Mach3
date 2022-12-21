@@ -12,7 +12,7 @@
 namespace Match3Game::Tile
 {
 
-    static const char* GetName(SpriteType type)
+    const char* Resources::GetName(SpriteType type)
     {
         std::map<SpriteType, const char*> _map
         {
@@ -21,13 +21,12 @@ namespace Match3Game::Tile
             { SpriteType::Crystal2, "crystal2" },
             { SpriteType::Crystal3, "crystal3" },
             { SpriteType::Crystal4, "crystal4" },
-            { SpriteType::Crystal5, "crystal5" },
             { SpriteType::End,      "end"      }
         };
         return _map[type];
     }
 
-    std::optional<SpriteType> GetType(const char* name)
+    const std::optional<SpriteType> Resources::GetType(const char* name)
     {
         std::map<const char*, SpriteType> _map
         {
@@ -36,7 +35,6 @@ namespace Match3Game::Tile
             { "crystal2", SpriteType::Crystal2 },
             { "crystal3", SpriteType::Crystal3 },
             { "crystal4", SpriteType::Crystal4 },
-            { "crystal5", SpriteType::Crystal5 },
             { "end",      SpriteType::End      }
         };
         return _map[name];

@@ -7,18 +7,29 @@
 
 #include "TileComponent.hpp"
 
+#include "../Model/TileItem.hpp"
+#include "Resources.hpp"
+
+#include <string>
+
 namespace Match3Game::Tile
 {
     using namespace cocos2d;
 
-    TileComponent::TileComponent()
-    : _pos(Vec2(0,0)), _sprite(nullptr) {}
+    TileComponent::TileComponent(cocos2d::Sprite *sprite)
+    :  _sprite(sprite), _item(nullptr)
+    {
+        
+    }
 
     void TileComponent::onAdd()
     {
         Component::onAdd();
         
+        if (!_item) return;
         
+        _sprite->setTexture(std::string(std::string(Resources::GetName(_item->GetSpriteType())) + std::string(".png")));
+        _sprite->setPosition(_item->GetPosition());
     }
 
     void TileComponent::onRemove()
@@ -26,23 +37,8 @@ namespace Match3Game::Tile
         Component::onRemove();
     }
 
-    cocos2d::Sprite *TileComponent::GetSprite() const
+    void TileComponent::Set(const ItemPtr& item)
     {
-        return _sprite;
-    }
-
-    void TileComponent::SetSprite(cocos2d::Sprite *sprite)
-    {
-        _sprite = sprite;
-    }
-
-    cocos2d::Vec2 TileComponent::GetPosition() const
-    {
-        return _pos;
-    }
-
-    void TileComponent::SetPosition(cocos2d::Vec2 pos)
-    {
-        _pos = pos;
+        _item = item;
     }
 }
