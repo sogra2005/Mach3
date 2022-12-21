@@ -33,28 +33,10 @@ public:
     static cocos2d::Scene* createScene();
 
     virtual bool init();
+    
     // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
-public:
-    void Fiel_Analysis(int TagSprite, int list_blocks[],
-                       int *pSum_sprites, cocos2d::Color3B color_sprite);
-    void Sprite_Comparison(cocos2d::Color3B color_1, cocos2d::Color3B color_2,
-                           int *list_blocks, int *pSum_sprites, int tag_sprite);
-    bool Existence(int listBlocks[], int *pSum_sprites, int Search);
-    void Change_color(int listBlocks[], int *pSum_sprites);
-private:
-    void FallingBlocks();
-    void AddEventListener();
-private:
-    void UpdateScoreText();
-private:
-    std::vector<cocos2d::Sprite*> _sprites;
-    cocos2d::EventListenerTouchOneByOne* _myListener;
-    int _scoreGame = 0;
-    cocos2d::Label *_scoreTextLabel, *_scoreLabel;
-private:
-    int _width, _height;
-private:
+    
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
 };

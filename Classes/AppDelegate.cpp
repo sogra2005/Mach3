@@ -23,14 +23,12 @@
  ****************************************************************************/
 
 #include "AppDelegate.h"
-#include "../StartScene/StartScene.hpp"
-#include "../State/StateController.hpp"
+#include "HelloWorldScene.h"
 
 // #define USE_AUDIO_ENGINE 1
 
 #if USE_AUDIO_ENGINE
 #include "audio/include/AudioEngine.h"
-using namespace cocos2d::experimental;
 #endif
 
 USING_NS_CC;
@@ -74,15 +72,15 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto glview = director->getOpenGLView();
     if(!glview) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
-        glview = GLViewImpl::createWithRect(GameNameKey, cocos2d::Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
+        glview = GLViewImpl::createWithRect("Mach3Game", cocos2d::Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
 #else
-        glview = GLViewImpl::create(GameNameKey);
+        glview = GLViewImpl::create("Mach3Game");
 #endif
         director->setOpenGLView(glview);
     }
-    
+
     // turn on display FPS
-    director->setDisplayStats(false);
+    director->setDisplayStats(true);
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0f / 60);
@@ -92,7 +90,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto frameSize = glview->getFrameSize();
     // if the frame's height is larger than the height of medium size.
     if (frameSize.height > mediumResolutionSize.height)
-    {
+    {        
         director->setContentScaleFactor(MIN(largeResolutionSize.height/designResolutionSize.height, largeResolutionSize.width/designResolutionSize.width));
     }
     // if the frame's height is larger than the height of small size.
@@ -109,7 +107,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     // create a scene. it's an autorelease object
-    auto scene = MergeGame::SettingsScene::StartScene::createScene();
+    auto scene = HelloWorld::createScene();
 
     // run
     director->runWithScene(scene);
