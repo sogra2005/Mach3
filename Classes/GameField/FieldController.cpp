@@ -94,7 +94,7 @@ namespace Match3Game::GameField
         {
             Select(component, item);
         }
-        else
+        else if (IsAdjacent(item))
         {
             Swap(component, item);
             UnSelect(_selectComponent);
@@ -105,11 +105,11 @@ namespace Match3Game::GameField
 //            FindAllMatch(tile);
 //            UnSelectTile(oldSelected);
 //        }
-//        else
-//        {
-//            UnSelect(_selectComponent);
-//            Select(component, item);
-//        }
+        else
+        {
+            UnSelect(_selectComponent);
+            Select(component, item);
+        }
     }
 
     void FieldController::Select(Tile::TileComponent *component, const TileItemPtr& item)
@@ -139,6 +139,17 @@ namespace Match3Game::GameField
         item->SetSprite(tmpSprite);
         component->Update();
         _selectComponent->Update();
+    }
+
+    bool FieldController::IsAdjacent(const TileItemPtr& item) const
+    {
+        auto xSize = _tilesSystem->GetXSize();
+        
+        int selectNumber = (int) _selectItem->GetNumber();
+        int thisNumber = (int) item->GetNumber();
+        
+        return (selectNumber == thisNumber - 1 || selectNumber == thisNumber + 1 ||
+                selectNumber == thisNumber - xSize || selectNumber == thisNumber + xSize);
     }
 
 //private List<Tile> Adjacent()

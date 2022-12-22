@@ -26,7 +26,8 @@ namespace Match3Game::Model
     void TilesSystem::Init(std::size_t xSize, std::size_t ySize)
     {
         _items.clear();
-        
+        _ySize = ySize;
+        _xSize = xSize;
         
         auto visibleSize = Director::getInstance()->getVisibleSize();
         Vec2 origin = Director::getInstance()->getVisibleOrigin();

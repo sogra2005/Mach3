@@ -34,3 +34,5 @@
 .DS_Store
 *build/
 */bin/
+Build_iOS/Mach3Game.xcodeproj/xcuserdata/alexandr_broslavsky.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+Build_iOS/Mach3Game.xcodeproj/project.xcworkspace/xcuserdata/alexandr_broslavsky.xcuserdatad/UserInterfaceState.xcuserstate

@@ -39,6 +39,7 @@ namespace Match3Game::GameField
         void Select(Tile::TileComponent *component, const TileItemPtr& item);
         void UnSelect(Tile::TileComponent *component);
         void Swap(Tile::TileComponent *component, const TileItemPtr& item);
+        bool IsAdjacent(const TileItemPtr& item) const;
     private:
         cocos2d::Node *_layer;
         cocos2d::EventListenerTouchOneByOne* _fieldListener;
