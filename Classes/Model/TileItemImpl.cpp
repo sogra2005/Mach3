@@ -11,8 +11,8 @@
 
 namespace Match3Game::Model
 {
-    TileItem::TileItem(Vec2 pos, Tile::SpriteType type)
-    : _pos(pos), _sprite(type)
+    TileItem::TileItem(Vec2 pos, Tile::SpriteType type, std::size_t number)
+    : _pos(pos), _sprite(type), _number(number)
     {
         
     }
@@ -35,5 +35,10 @@ namespace Match3Game::Model
     void TileItem::SetPosition(cocos2d::Vec2 pos)
     {
         _pos = pos;
+    }
+
+    std::size_t TileItem::GetNumber() const
+    {
+        return _number;
     }
 }

@@ -27,6 +27,8 @@ namespace Match3Game::Model
     public:
         virtual cocos2d::Vec2 GetPosition() const = 0;
         virtual void SetPosition(cocos2d::Vec2 pos) = 0;
+    public:
+        virtual std::size_t GetNumber() const = 0;
     };
 }
 

@@ -31,11 +31,11 @@ namespace Match3Game::GameField
                 if (_owner)
                 {
                     auto sprite = cocos2d::Sprite::create();
-                    auto component = Utils::Create<Tile::TileComponent>(sprite);
+                    auto component = Utils::CreateComponent<Tile::TileComponent>(sprite);
                     component->Set(_items->GetItem(i));
                     _owner->addChild(sprite);
+                    component->setName("TileComponent");
                     sprite->addComponent(component);
-                    
                 }
             }
         }

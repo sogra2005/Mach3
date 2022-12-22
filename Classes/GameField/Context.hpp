@@ -17,16 +17,20 @@ namespace Match3Game::Model
 
 namespace Match3Game::GameField
 {
+    class FieldController;
+
     class Context
     {
     public:
         using TilesSystemPtr = std::shared_ptr<Model::ITilesSystem>;
+        using FieldControllerPtr = std::shared_ptr<FieldController>;
     public:
         Context(cocos2d::Node *layer, const TilesSystemPtr& tilesSystem);
     private:
         void InitGameField(cocos2d::Node *layer);
     private:
         TilesSystemPtr _tilesSystem;
+        FieldControllerPtr _fieldController;
     };
 }
 

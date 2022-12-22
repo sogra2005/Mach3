@@ -23,8 +23,11 @@ namespace Match3Game::Model
     public:
         ItemPtr GetItem(std::size_t idx) const override;
         std::size_t Count() const override;
+        std::size_t GetXSize() const override;
+        std::size_t GetYSize() const override;
     private:
         std::vector<ItemPtr> _items;
+        std::size_t _xSize, _ySize;
     };
 }
 

@@ -17,7 +17,7 @@ namespace Match3Game::Tile
     using namespace cocos2d;
 
     TileComponent::TileComponent(cocos2d::Sprite *sprite)
-    :  _sprite(sprite), _item(nullptr)
+    :  _sprite(sprite), _item(nullptr), _isSelected(false)
     {
         
     }
@@ -28,7 +28,7 @@ namespace Match3Game::Tile
         
         if (!_item) return;
         
-        _sprite->setTexture(std::string(std::string(Resources::GetName(_item->GetSpriteType())) + std::string(".png")));
+        Update();
         _sprite->setPosition(_item->GetPosition());
     }
 
@@ -37,8 +37,36 @@ namespace Match3Game::Tile
         Component::onRemove();
     }
 
+    void TileComponent::Update()
+    {
+        _sprite->setTexture(std::string(std::string(Resources::GetName(_item->GetSpriteType())) + std::string(".png")));
+    }
+
     void TileComponent::Set(const ItemPtr& item)
     {
         _item = item;
     }
+
+    std::size_t TileComponent::GetNumber() const
+    {
+        return _item->GetNumber();
+    }
+
+    void TileComponent::Select()
+    {
+        _isSelected = true;
+        _sprite->setColor(Color3B(150, 150, 150));
+    }
+
+    void TileComponent::UnSelect()
+    {
+        _isSelected = false;
+        _sprite->setColor(Color3B(255, 255, 255));
+    }
+
+    bool TileComponent::IsSelected() const
+    {
+        return _isSelected;
+    }
+
 }

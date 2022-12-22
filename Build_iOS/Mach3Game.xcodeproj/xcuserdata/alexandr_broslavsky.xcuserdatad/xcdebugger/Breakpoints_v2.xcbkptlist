@@ -7,17 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B0F464B1-66BC-4D3B-A685-04F8CD95D31A"
-            shouldBeEnabled = "No"
+            uuid = "78A7AA37-FCB7-422F-9428-F959D0C69C2C"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Classes/Tile/TileComponent.cpp"
+            filePath = "Classes/GameField/FieldController.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "TileComponent::onAdd()"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "FieldController::~FieldController()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78A7AA37-FCB7-422F-9428-F959D0C69C2C - e7127932c2bd9078"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Match3Game::GameField::FieldController::~FieldController()"
+                  moduleName = "Mach3Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Classes/GameField/FieldController.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "78A7AA37-FCB7-422F-9428-F959D0C69C2C - e7127932c2bd9078"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Match3Game::GameField::FieldController::~FieldController()"
+                  moduleName = "Mach3Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Classes/GameField/FieldController.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

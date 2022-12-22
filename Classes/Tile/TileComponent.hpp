@@ -29,9 +29,17 @@ namespace Match3Game::Tile
     public:
         using ItemPtr = std::shared_ptr<Model::ITileItem>;
         void Set(const ItemPtr& item);
+    public:
+        void Update();
+    public:
+        std::size_t GetNumber() const;
+        void Select();
+        void UnSelect();
+        bool IsSelected() const;
     private:
         cocos2d::Sprite *_sprite;
         ItemPtr _item;
+        bool _isSelected;
     };
 }
 

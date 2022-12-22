@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		A2087236F5994E318FDE8199 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 06D0E1FE1407458F919E01D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 8EFCA4EB74334507AA990107 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				1FD4B72E8A2A355DEDCAE382 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,13 +20,13 @@
 		};
 		D2200741008E4506B3096D07 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F93686DBC646453A97B9254F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 911351D36B394A8EB7B5F055 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				4BD51E96325C8096DE0ED69F /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				8E098DA98E7549A9BD548BD0 /* PBXTargetDependency */,
-				531EADC6F8EF4E3A8783C781 /* PBXTargetDependency */,
+				9094EE146C054328BA8C5645 /* PBXTargetDependency */,
+				7DEFD0FEB63B4469BC5CBD9A /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,34 +34,34 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		13239A6261344CAF98672185 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 0823BBDA3FF84860BA3885BF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */; };
-		3F1509867D4947D9A76E90DA /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9EEF5408E36C40D8AFE220A1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
-		C44CB08966C040B88D9E2536 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FB9A88E783A44799ABF84004 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */; };
+		1159893213884CEE88A6F91B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 446096F5D3C54E748E7BCFED /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */; };
+		305EE12E33E14008963D8ACC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 8A6828068D9E41F3A1F39D89 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		BBB244213CF7484199141D1A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4CE43991F2904DDDA7FD38BC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		25EE613F83BD49E59F723DF8 /* RelWithDebInfo */ = {
+		12B77099C9A948E4914B789F /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		410C806B75104CA8AD7AC19A /* Debug */ = {
+		5E95EA01D06347679E1D31D7 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		CA9A8B448E3641E3B489F99C /* Release */ = {
+		D7F4EF68F6EB4EFB8EFBF8CA /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		E010F83EE0C64377B63953BC /* MinSizeRel */ = {
+		E47D98ADB0A8468A847E6C74 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -71,39 +71,39 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		83646C05FB964AFDA8E556E6 /* PBXContainerItemProxy */ = {
+		889C161CA24C4FF8A18EE56E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DE684BEE6235436289D9B4FE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A2087236F5994E318FDE8199;
 			remoteInfo = ZERO_CHECK;
 		};
-		B331BAEB108943AABD99BD71 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE684BEE6235436289D9B4FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2087236F5994E318FDE8199;
-			remoteInfo = ZERO_CHECK;
-		};
-		B928DDE915504F9DA8308EF6 /* PBXContainerItemProxy */ = {
+		8AC2C883611D411AA089DFEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DE684BEE6235436289D9B4FE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0AF82BFF682042C5B5CBEB3C;
 			remoteInfo = ext_clipper;
 		};
+		E7DA84319C7D45BDB5BC1A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE684BEE6235436289D9B4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2087236F5994E318FDE8199;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0823BBDA3FF84860BA3885BF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper.cpp; sourceTree = SOURCE_ROOT; };
-		22D5546DA67E466394B7BAB9 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D548F35B17F4F2889FAA6FE /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		9EEF5408E36C40D8AFE220A1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist; sourceTree = "<absolute>"; };
-		FB9A88E783A44799ABF84004 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		446096F5D3C54E748E7BCFED /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper.cpp; sourceTree = SOURCE_ROOT; };
+		4CE43991F2904DDDA7FD38BC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6C453449776E4E459139B98A /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6828068D9E41F3A1F39D89 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist; sourceTree = "<absolute>"; };
+		DEB47FCDB1E84369A0DE9327 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA5EB1B247DB4D53827C94F8 /* Frameworks */ = {
+		8BBD765274904F9B8921F14F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -113,79 +113,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AFBD8135EE64BCA901A9F86 /* CMake Rules */ = {
+		095C1F7397094DAAA2D56323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C453449776E4E459139B98A /* ext_clipper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E5E46FF4C0F4EEAAC76C5B0 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		3B3EB9E83DC24D84958FC062 /* Resources */ = {
+		387DB1E7F37241459BEBD798 /* ext_clipper */ = {
 			isa = PBXGroup;
 			children = (
-				9EEF5408E36C40D8AFE220A1 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4FA9496FCAC84FB78E17001F /* ext_clipper */ = {
-			isa = PBXGroup;
-			children = (
-				B2D80CE575704D679B009A4F /* Source Files */,
-				3B3EB9E83DC24D84958FC062 /* Resources */,
-				FB9A88E783A44799ABF84004 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */,
+				66A3FA6949134DB6BBD249DD /* Source Files */,
+				6E8E1513EF8044F3B3F58E0B /* Resources */,
+				4CE43991F2904DDDA7FD38BC /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */,
 			);
 			name = ext_clipper;
 			sourceTree = "<group>";
 		};
-		649702BC53B743B49154FF6D = {
+		5565D843B87C46E68DEA1079 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				F4BFDDDCB1CC491C92A4FE62 /* External */,
-				AB0F1AA6C30F4F79ACD8C595 /* ALL_BUILD */,
-				B343C7D0AEB74F2DB85FD4EC /* Products */,
-				F7EAEEA8902043BB8DF0F7FB /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		AB0F1AA6C30F4F79ACD8C595 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				3AFBD8135EE64BCA901A9F86 /* CMake Rules */,
-				2D548F35B17F4F2889FAA6FE /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		B2D80CE575704D679B009A4F /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				0823BBDA3FF84860BA3885BF /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		B343C7D0AEB74F2DB85FD4EC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				22D5546DA67E466394B7BAB9 /* ext_clipper */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F4BFDDDCB1CC491C92A4FE62 /* External */ = {
-			isa = PBXGroup;
-			children = (
-				4FA9496FCAC84FB78E17001F /* ext_clipper */,
+				387DB1E7F37241459BEBD798 /* ext_clipper */,
 			);
 			name = External;
 			sourceTree = "<group>";
 		};
-		F7EAEEA8902043BB8DF0F7FB /* Frameworks */ = {
+		6499D385EFDC40539C7599C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66A3FA6949134DB6BBD249DD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				446096F5D3C54E748E7BCFED /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6E8E1513EF8044F3B3F58E0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A6828068D9E41F3A1F39D89 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9896E069F224D7CBD7C1ADB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E46FF4C0F4EEAAC76C5B0 /* CMake Rules */,
+				DEB47FCDB1E84369A0DE9327 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DA6B3185CB904DBD9F69997B = {
+			isa = PBXGroup;
+			children = (
+				5565D843B87C46E68DEA1079 /* External */,
+				A9896E069F224D7CBD7C1ADB /* ALL_BUILD */,
+				095C1F7397094DAAA2D56323 /* Products */,
+				6499D385EFDC40539C7599C1 /* Frameworks */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,19 +193,19 @@
 /* Begin PBXNativeTarget section */
 		0AF82BFF682042C5B5CBEB3C /* ext_clipper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F835784E2CC4A6AB3444A83 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildConfigurationList = 9B82070C9BDC4423995371AE /* Build configuration list for PBXNativeTarget "ext_clipper" */;
 			buildPhases = (
-				2BA7C64E71B44B569F9F20DF /* Sources */,
-				EA5EB1B247DB4D53827C94F8 /* Frameworks */,
+				E9D8AB3B7E1A40D188BA963D /* Sources */,
+				8BBD765274904F9B8921F14F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EDB6194CAB147B4ACCAD8D7 /* PBXTargetDependency */,
+				AA5049A8B21A4047869752C7 /* PBXTargetDependency */,
 			);
 			name = ext_clipper;
 			productName = ext_clipper;
-			productReference = 22D5546DA67E466394B7BAB9 /* ext_clipper */;
+			productReference = 6C453449776E4E459139B98A /* ext_clipper */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -217,18 +217,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 			};
-			buildConfigurationList = 53130792C3E64EA6866FEFA0 /* Build configuration list for PBXProject "clipper" */;
+			buildConfigurationList = 24A090B99C20484AB3F6AE54 /* Build configuration list for PBXProject "clipper" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				410C806B75104CA8AD7AC19A /* Debug */,
-				CA9A8B448E3641E3B489F99C /* Release */,
-				E010F83EE0C64377B63953BC /* MinSizeRel */,
-				25EE613F83BD49E59F723DF8 /* RelWithDebInfo */,
+				5E95EA01D06347679E1D31D7 /* Debug */,
+				D7F4EF68F6EB4EFB8EFBF8CA /* Release */,
+				E47D98ADB0A8468A847E6C74 /* MinSizeRel */,
+				12B77099C9A948E4914B789F /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 649702BC53B743B49154FF6D;
+			mainGroup = DA6B3185CB904DBD9F69997B;
 			projectDirPath = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper;
 			projectRoot = "";
 			targets = (
@@ -339,152 +339,36 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BA7C64E71B44B569F9F20DF /* Sources */ = {
+		E9D8AB3B7E1A40D188BA963D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13239A6261344CAF98672185 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */,
+				1159893213884CEE88A6F91B /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/clipper.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		531EADC6F8EF4E3A8783C781 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
-			targetProxy = 83646C05FB964AFDA8E556E6 /* PBXContainerItemProxy */;
-		};
-		6EDB6194CAB147B4ACCAD8D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
-			targetProxy = B331BAEB108943AABD99BD71 /* PBXContainerItemProxy */;
-		};
-		8E098DA98E7549A9BD548BD0 /* PBXTargetDependency */ = {
+		7DEFD0FEB63B4469BC5CBD9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0AF82BFF682042C5B5CBEB3C /* ext_clipper */;
-			targetProxy = B928DDE915504F9DA8308EF6 /* PBXContainerItemProxy */;
+			targetProxy = 8AC2C883611D411AA089DFEB /* PBXContainerItemProxy */;
+		};
+		9094EE146C054328BA8C5645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
+			targetProxy = 889C161CA24C4FF8A18EE56E /* PBXContainerItemProxy */;
+		};
+		AA5049A8B21A4047869752C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
+			targetProxy = E7DA84319C7D45BDB5BC1A64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00938ECB72F34DF489B4AB79 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		0CE1A494F668418F9C62DC98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
-			};
-			name = Debug;
-		};
-		155EB9FEAE4B44E4A38BF42E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Debug;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/.,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_clipper;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		1B1BF1826924471A96241C50 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/MinSizeRel;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/.,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_clipper;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		22FD0E563DB14A54B68FC46E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4539A36D5D434B2AA98735C4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
-			};
-			name = MinSizeRel;
-		};
-		54E83B3BEECD4DC4B44630D7 /* Debug */ = {
+		0DA8E8C6F7674B13A796A83F /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -502,89 +386,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
-		};
-		7857DDC3842B44C6A416C638 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
-			};
-			name = RelWithDebInfo;
-		};
-		842E72564A0F47F6A8705677 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
-			};
-			name = Release;
-		};
-		959C60F70B154ECE812D0712 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = MinSizeRel;
 		};
-		96AFF062A90D4501A6F56B4A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A975E330F685439E94897375 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B3E5394B5294460FACCE63C1 /* Release */ = {
+		21E93063E24F41AF90F8C000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -612,19 +416,75 @@ exit 0";
 			};
 			name = Release;
 		};
-		BB3FD0C31E484C12A27F7840 /* MinSizeRel */ = {
+		221245231BA64CBC9799477B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
+			};
+			name = RelWithDebInfo;
+		};
+		4FFD8A6D4A4B42F2A1DB4387 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
+			};
+			name = MinSizeRel;
+		};
+		6B462B1B85E945C887E2B0D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/.,"$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7338B5B8EBA54FE38F9538DF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
 				USE_HEADERMAP = NO;
@@ -632,7 +492,17 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		C09134369C484E0990959E0D /* Release */ = {
+		8600466FB7F741FF987184AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
+			};
+			name = Release;
+		};
+		92D216E8DF8E4D3E893A0F5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -652,7 +522,97 @@ exit 0";
 			};
 			name = Release;
 		};
-		CAC27B8C0A65449B8A6B6AA4 /* RelWithDebInfo */ = {
+		9E9CB9847277438780AC6FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper/build;
+			};
+			name = Debug;
+		};
+		A9A7B14D5D374AC587827C9F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CBED344E194549BD8998672C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D30F7220CD754662A348C38B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7A9E7CFEC2C4B46A5EC2EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD5BF858AE614E438717FD55 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -680,49 +640,89 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
+		FCB30FA5E098421A836A6218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FEE01684603446B8A4929542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06D0E1FE1407458F919E01D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		24A090B99C20484AB3F6AE54 /* Build configuration list for PBXProject "clipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A975E330F685439E94897375 /* Debug */,
-				22FD0E563DB14A54B68FC46E /* Release */,
-				959C60F70B154ECE812D0712 /* MinSizeRel */,
-				00938ECB72F34DF489B4AB79 /* RelWithDebInfo */,
+				9E9CB9847277438780AC6FB9 /* Debug */,
+				8600466FB7F741FF987184AB /* Release */,
+				4FFD8A6D4A4B42F2A1DB4387 /* MinSizeRel */,
+				221245231BA64CBC9799477B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		53130792C3E64EA6866FEFA0 /* Build configuration list for PBXProject "clipper" */ = {
+		8EFCA4EB74334507AA990107 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CE1A494F668418F9C62DC98 /* Debug */,
-				842E72564A0F47F6A8705677 /* Release */,
-				4539A36D5D434B2AA98735C4 /* MinSizeRel */,
-				7857DDC3842B44C6A416C638 /* RelWithDebInfo */,
+				FEE01684603446B8A4929542 /* Debug */,
+				FCB30FA5E098421A836A6218 /* Release */,
+				D30F7220CD754662A348C38B /* MinSizeRel */,
+				A9A7B14D5D374AC587827C9F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6F835784E2CC4A6AB3444A83 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+		911351D36B394A8EB7B5F055 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				155EB9FEAE4B44E4A38BF42E /* Debug */,
-				B3E5394B5294460FACCE63C1 /* Release */,
-				1B1BF1826924471A96241C50 /* MinSizeRel */,
-				CAC27B8C0A65449B8A6B6AA4 /* RelWithDebInfo */,
+				D7A9E7CFEC2C4B46A5EC2EA6 /* Debug */,
+				92D216E8DF8E4D3E893A0F5D /* Release */,
+				0DA8E8C6F7674B13A796A83F /* MinSizeRel */,
+				CBED344E194549BD8998672C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F93686DBC646453A97B9254F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		9B82070C9BDC4423995371AE /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54E83B3BEECD4DC4B44630D7 /* Debug */,
-				C09134369C484E0990959E0D /* Release */,
-				BB3FD0C31E484C12A27F7840 /* MinSizeRel */,
-				96AFF062A90D4501A6F56B4A /* RelWithDebInfo */,
+				6B462B1B85E945C887E2B0D6 /* Debug */,
+				21E93063E24F41AF90F8C000 /* Release */,
+				7338B5B8EBA54FE38F9538DF /* MinSizeRel */,
+				DD5BF858AE614E438717FD55 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

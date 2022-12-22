@@ -12,7 +12,7 @@
 
 namespace Match3Game::Tile
 {
-enum class SpriteType;
+    enum class SpriteType;
 }
 
 namespace Match3Game::Model
@@ -22,16 +22,19 @@ namespace Match3Game::Model
     class TileItem : public ITileItem
     {
     public:
-        TileItem(Vec2 pos, Tile::SpriteType type);
+        TileItem(Vec2 pos, Tile::SpriteType type, std::size_t number);
     public:
-        SpriteType GetSpriteType() const;
-        void SetSprite(SpriteType sprite);
+        SpriteType GetSpriteType() const override;
+        void SetSprite(SpriteType sprite) override;
     public:
-        cocos2d::Vec2 GetPosition() const;
-        void SetPosition(cocos2d::Vec2 pos);
+        cocos2d::Vec2 GetPosition() const override;
+        void SetPosition(cocos2d::Vec2 pos) override;
+    public:
+        std::size_t GetNumber() const override;
     private:
         Vec2 _pos;
         SpriteType _sprite;
+        std::size_t _number;
     };
 }
 

@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		A2087236F5994E318FDE8199 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D54E8F3539EB4A0D8FABA4AD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = DFA62048E01644CEAE603ECA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				E3B9CBF33CE78F2540778110 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,13 +20,13 @@
 		};
 		D2200741008E4506B3096D07 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B537FB66AF8A444397A17D22 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 5263086C15C544FA8A575874 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				1D31514A27044C5B3221CA91 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				6A67620BA1C34B22A26C794E /* PBXTargetDependency */,
-				5E84F6F99D2C4AB685F00DBC /* PBXTargetDependency */,
+				EDF0EF9B1A41442BAD4D289E /* PBXTargetDependency */,
+				5E19F5C2DD0D40ADA0CDD52B /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,34 +34,34 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		161DEFBD35E4476993193E3C /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 94161E4AE4B74C3E825F11CE /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */; };
-		2BA66CD78C0F422AA082687A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3EE7C9D4B91A499481997624 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
-		50D6655301894FD58CEA3B02 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 364B4075C56449BCA34E7D26 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */; };
+		3903C97289E648548DAF98F7 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = DEA598B371FF4BBE9C85069E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+		6E2D4DCE561D499BBC46E4D4 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D71D186CE993436086CB7F67 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */; };
+		7ACDFCAEEDE742BCB51EEA9A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 219AB140A62E46239767EB45 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		39E2255B40CF41BC9253123C /* Debug */ = {
+		8112C341CC6B40D9B0AD4937 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		E1185167BC674B94862E922F /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		ECE09474C62B4D6DA1920ABC /* RelWithDebInfo */ = {
+		83DB6441492F45D89FF00E9C /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		F35D915439A641B4A0E3A99D /* MinSizeRel */ = {
+		960B109F6F7F4FAF9363CBE6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A3EF947967744E67A2FA9096 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -71,39 +71,39 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		79F256568D1A43AAB5B88EEB /* PBXContainerItemProxy */ = {
+		1A301A25553244D793B1F609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA52A6EA0DAF4665AA61A397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2087236F5994E318FDE8199;
+			remoteInfo = ZERO_CHECK;
+		};
+		2E28432992504D79A8DABACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA52A6EA0DAF4665AA61A397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2087236F5994E318FDE8199;
+			remoteInfo = ZERO_CHECK;
+		};
+		F5BC7A5C3F094C1CA23F1F55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA52A6EA0DAF4665AA61A397 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7900043ADE574D1CACF40567;
 			remoteInfo = ext_md5;
 		};
-		87560BE4FE3F4FA68A53CD1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA52A6EA0DAF4665AA61A397 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2087236F5994E318FDE8199;
-			remoteInfo = ZERO_CHECK;
-		};
-		F766C33E55A142019E76CA90 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA52A6EA0DAF4665AA61A397 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2087236F5994E318FDE8199;
-			remoteInfo = ZERO_CHECK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		364B4075C56449BCA34E7D26 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5.c; sourceTree = SOURCE_ROOT; };
-		3EE7C9D4B91A499481997624 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist; sourceTree = "<absolute>"; };
-		3F820F9178294C61BCDA1DFE /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		43A187A6E880409F9C854854 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		94161E4AE4B74C3E825F11CE /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		20E0A53FC4934B7E9B428A27 /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		219AB140A62E46239767EB45 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5.c; sourceTree = SOURCE_ROOT; };
+		29C90201805F47DE9EB7CF18 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D71D186CE993436086CB7F67 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DEA598B371FF4BBE9C85069E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E5E2543A1AAB416B8C57E545 /* Frameworks */ = {
+		D721CBFDC4AA4E3EABFEA946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -113,79 +113,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0084EDA7E30C420787B3B035 /* Products */ = {
+		09ECBF521F324AF8805D0198 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				3F820F9178294C61BCDA1DFE /* ext_md5 */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		051F45BC42004C52A5FBC927 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				DF54BE36361547778DE1BB96 /* CMake Rules */,
-				43A187A6E880409F9C854854 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */,
+				85BAA9420E454FA2981342D4 /* CMake Rules */,
+				29C90201805F47DE9EB7CF18 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		78D359A82F9A4AB0B723E41D /* Frameworks */ = {
+		18EA22073ECD457CA795714B = {
 			isa = PBXGroup;
 			children = (
+				19316829305949B3B5F6395D /* External */,
+				09ECBF521F324AF8805D0198 /* ALL_BUILD */,
+				A0DDC1DA4117418C8FBF50E9 /* Products */,
+				9B6B4A05866F4457AF9D6BD1 /* Frameworks */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7FC414C0EACA463182FB01C6 /* Source Files */ = {
+		19316829305949B3B5F6395D /* External */ = {
 			isa = PBXGroup;
 			children = (
-				364B4075C56449BCA34E7D26 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */,
+				AD83DDC520CF4204BD5DFF4E /* ext_md5 */,
 			);
-			name = "Source Files";
+			name = External;
 			sourceTree = "<group>";
 		};
-		B9A47AD419AE4CD9B89E78A0 /* Resources */ = {
+		34703CA590AC4A83853B417C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3EE7C9D4B91A499481997624 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+				DEA598B371FF4BBE9C85069E /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		D8596C4D208B4795A31E56F7 = {
-			isa = PBXGroup;
-			children = (
-				F5E48AC081A24EEF83E8B2CC /* External */,
-				051F45BC42004C52A5FBC927 /* ALL_BUILD */,
-				0084EDA7E30C420787B3B035 /* Products */,
-				78D359A82F9A4AB0B723E41D /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		DF54BE36361547778DE1BB96 /* CMake Rules */ = {
+		85BAA9420E454FA2981342D4 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		E562FB5F706944C38F0FF8D3 /* ext_md5 */ = {
+		9B6B4A05866F4457AF9D6BD1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7FC414C0EACA463182FB01C6 /* Source Files */,
-				B9A47AD419AE4CD9B89E78A0 /* Resources */,
-				94161E4AE4B74C3E825F11CE /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0DDC1DA4117418C8FBF50E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E0A53FC4934B7E9B428A27 /* ext_md5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD83DDC520CF4204BD5DFF4E /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1FC0C64AA44CBAA1A11B2 /* Source Files */,
+				34703CA590AC4A83853B417C /* Resources */,
+				D71D186CE993436086CB7F67 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/CMakeLists.txt */,
 			);
 			name = ext_md5;
 			sourceTree = "<group>";
 		};
-		F5E48AC081A24EEF83E8B2CC /* External */ = {
+		B5A1FC0C64AA44CBAA1A11B2 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				E562FB5F706944C38F0FF8D3 /* ext_md5 */,
+				219AB140A62E46239767EB45 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */,
 			);
-			name = External;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,19 +193,19 @@
 /* Begin PBXNativeTarget section */
 		7900043ADE574D1CACF40567 /* ext_md5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0AFD76B0AAC4D11A2EA2F7C /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildConfigurationList = EBC10428F292437A8A77ED82 /* Build configuration list for PBXNativeTarget "ext_md5" */;
 			buildPhases = (
-				3220C8E977C647B888983912 /* Sources */,
-				E5E2543A1AAB416B8C57E545 /* Frameworks */,
+				A9564439E46D49E5BAD9A298 /* Sources */,
+				D721CBFDC4AA4E3EABFEA946 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C507E810089424D8D4409A8 /* PBXTargetDependency */,
+				FFD60255BBBC4B93817F24BC /* PBXTargetDependency */,
 			);
 			name = ext_md5;
 			productName = ext_md5;
-			productReference = 3F820F9178294C61BCDA1DFE /* ext_md5 */;
+			productReference = 20E0A53FC4934B7E9B428A27 /* ext_md5 */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -217,18 +217,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 			};
-			buildConfigurationList = D0662F24CFE14D8F968A212A /* Build configuration list for PBXProject "md5" */;
+			buildConfigurationList = 75DDB450541642DFA59236A4 /* Build configuration list for PBXProject "md5" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				39E2255B40CF41BC9253123C /* Debug */,
-				E1185167BC674B94862E922F /* Release */,
-				F35D915439A641B4A0E3A99D /* MinSizeRel */,
-				ECE09474C62B4D6DA1920ABC /* RelWithDebInfo */,
+				8112C341CC6B40D9B0AD4937 /* Debug */,
+				960B109F6F7F4FAF9363CBE6 /* Release */,
+				A3EF947967744E67A2FA9096 /* MinSizeRel */,
+				83DB6441492F45D89FF00E9C /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = D8596C4D208B4795A31E56F7;
+			mainGroup = 18EA22073ECD457CA795714B;
 			projectDirPath = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5;
 			projectRoot = "";
 			targets = (
@@ -339,36 +339,56 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3220C8E977C647B888983912 /* Sources */ = {
+		A9564439E46D49E5BAD9A298 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D6655301894FD58CEA3B02 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */,
+				7ACDFCAEEDE742BCB51EEA9A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/md5.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C507E810089424D8D4409A8 /* PBXTargetDependency */ = {
+		5E19F5C2DD0D40ADA0CDD52B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
-			targetProxy = 87560BE4FE3F4FA68A53CD1E /* PBXContainerItemProxy */;
+			targetProxy = 2E28432992504D79A8DABACA /* PBXContainerItemProxy */;
 		};
-		5E84F6F99D2C4AB685F00DBC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
-			targetProxy = F766C33E55A142019E76CA90 /* PBXContainerItemProxy */;
-		};
-		6A67620BA1C34B22A26C794E /* PBXTargetDependency */ = {
+		EDF0EF9B1A41442BAD4D289E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7900043ADE574D1CACF40567 /* ext_md5 */;
-			targetProxy = 79F256568D1A43AAB5B88EEB /* PBXContainerItemProxy */;
+			targetProxy = F5BC7A5C3F094C1CA23F1F55 /* PBXContainerItemProxy */;
+		};
+		FFD60255BBBC4B93817F24BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
+			targetProxy = 1A301A25553244D793B1F609 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		026FFDCD4B4841B8956BA9CD /* Debug */ = {
+		2D4F907B41F14996BC9BC590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
+			};
+			name = Release;
+		};
+		3BEF275284814DDDA3D30965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
+			};
+			name = Debug;
+		};
+		591CCF0ECE2E486F8D820436 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -386,29 +406,41 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		067368AA34BD443281A003AD /* Debug */ = {
+		5AF8A0C219E04B398F805D7B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
+			};
+			name = MinSizeRel;
+		};
+		5B453E670C4140819705537C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
+			};
+			name = RelWithDebInfo;
+		};
+		61290580796D4829B09BD54D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Debug;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/..,"$(inherited)");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_md5;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
 				USE_HEADERMAP = NO;
@@ -416,7 +448,27 @@ fi
 			};
 			name = Debug;
 		};
-		5447FFADD9574315942884E9 /* RelWithDebInfo */ = {
+		78CDBD1822474F4D8104F703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		81EC5C292DA242CA8984EC9A /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -444,7 +496,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		5CD7167BE1104C8498BF6CAF /* Debug */ = {
+		88D0727781B54410A9FD6514 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -462,66 +514,26 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		666C2C1ADE3743AD83BE247A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
-			};
-			name = Debug;
-		};
-		7C28BDE5CAFD44D9AD71414B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
-			};
-			name = Release;
-		};
-		8643D64BD93347B4ACF578CD /* Release */ = {
+		8C93D86DF533455AA92C20D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		B8DC5C9A88CA4DF0BFC4ECA1 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/MinSizeRel;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/Debug;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/..,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
 				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_md5;
@@ -530,39 +542,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		B8E1BE23A1CE4EF0A9E87E8E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
-			};
-			name = MinSizeRel;
-		};
-		C1FC9DC0A54E42C3A361B2DD /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		C432105090184701B9C8AF85 /* RelWithDebInfo */ = {
+		8CCA84A1850C4E7DA7DF9F9C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -582,7 +564,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		D2DAC56DD1B84DBD845CE894 /* RelWithDebInfo */ = {
+		A8282BA3C061438CB12022ED /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -602,7 +584,47 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		DD6281B107324A458C06F34B /* Release */ = {
+		E4B1C3EA1BCD479EB767C8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E9D3426252D5465DB2D51E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F3DCEFAF3F0B491BBE48221E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -630,39 +652,27 @@ fi
 			};
 			name = Release;
 		};
-		E0AF7EC138E140C0BED17B45 /* Release */ = {
+		F9A16F2599DB47E5A11EC466 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/md5/..,"$(inherited)");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		E34A9FBBA9A44F968132310E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ext_md5;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5;
 				USE_HEADERMAP = NO;
@@ -670,59 +680,49 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		F5DCD27E673E43D4BB54F1D5 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/md5/build;
-			};
-			name = RelWithDebInfo;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B537FB66AF8A444397A17D22 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		5263086C15C544FA8A575874 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CD7167BE1104C8498BF6CAF /* Debug */,
-				8643D64BD93347B4ACF578CD /* Release */,
-				C1FC9DC0A54E42C3A361B2DD /* MinSizeRel */,
-				C432105090184701B9C8AF85 /* RelWithDebInfo */,
+				61290580796D4829B09BD54D /* Debug */,
+				E9D3426252D5465DB2D51E52 /* Release */,
+				88D0727781B54410A9FD6514 /* MinSizeRel */,
+				8CCA84A1850C4E7DA7DF9F9C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C0AFD76B0AAC4D11A2EA2F7C /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+		75DDB450541642DFA59236A4 /* Build configuration list for PBXProject "md5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				067368AA34BD443281A003AD /* Debug */,
-				DD6281B107324A458C06F34B /* Release */,
-				B8DC5C9A88CA4DF0BFC4ECA1 /* MinSizeRel */,
-				5447FFADD9574315942884E9 /* RelWithDebInfo */,
+				3BEF275284814DDDA3D30965 /* Debug */,
+				2D4F907B41F14996BC9BC590 /* Release */,
+				5AF8A0C219E04B398F805D7B /* MinSizeRel */,
+				5B453E670C4140819705537C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D0662F24CFE14D8F968A212A /* Build configuration list for PBXProject "md5" */ = {
+		DFA62048E01644CEAE603ECA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				666C2C1ADE3743AD83BE247A /* Debug */,
-				7C28BDE5CAFD44D9AD71414B /* Release */,
-				B8E1BE23A1CE4EF0A9E87E8E /* MinSizeRel */,
-				F5DCD27E673E43D4BB54F1D5 /* RelWithDebInfo */,
+				E4B1C3EA1BCD479EB767C8BA /* Debug */,
+				78CDBD1822474F4D8104F703 /* Release */,
+				591CCF0ECE2E486F8D820436 /* MinSizeRel */,
+				A8282BA3C061438CB12022ED /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D54E8F3539EB4A0D8FABA4AD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		EBC10428F292437A8A77ED82 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				026FFDCD4B4841B8956BA9CD /* Debug */,
-				E0AF7EC138E140C0BED17B45 /* Release */,
-				E34A9FBBA9A44F968132310E /* MinSizeRel */,
-				D2DAC56DD1B84DBD845CE894 /* RelWithDebInfo */,
+				8C93D86DF533455AA92C20D1 /* Debug */,
+				F3DCEFAF3F0B491BBE48221E /* Release */,
+				F9A16F2599DB47E5A11EC466 /* MinSizeRel */,
+				81EC5C292DA242CA8984EC9A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

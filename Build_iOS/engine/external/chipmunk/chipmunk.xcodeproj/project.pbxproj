@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		A2087236F5994E318FDE8199 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 82E6DB84F4C648B8B6D6F0B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 83613DE573184952806F4A9E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				8911F897A9B3EF841FE3999C /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,12 +20,12 @@
 		};
 		D2200741008E4506B3096D07 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 986E2AA014184A3F8CC2957A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 642FE6BCC6224FB29D10DFCA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				18B33B3B49F9F8BD420AB7BD /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				FE5C9CF09CC24FD6B48A07F5 /* PBXTargetDependency */,
+				A0B468F4CC74431BAD9FB8FF /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -33,38 +33,38 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		0B24E09A01244AA08F7F69DF /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		28AECB5135A34F1AB2E4A040 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		3E035543994B4D5583943C57 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		8A723602754E44609B8BE4CD /* RelWithDebInfo */ = {
+		2BE97B94ED3A48C2973D0BCE /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		498354A259794C40BC68C5FD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5808C7B02E744763A6DEF8E0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C6FDA1CADB2A4A8190269C5B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		C2BF48712ABF484BA7D2344F /* PBXContainerItemProxy */ = {
+		AD3B8FF2F5FE4BEA95A35159 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EB82570424D470EB09C5168 /* Project object */;
 			proxyType = 1;
@@ -74,47 +74,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C97BE4560B7E49F8AC46174A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/chipmunk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		910333F1701940AEB75362D4 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/chipmunk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		5D0E9EF5BB2F49EC94214ABF /* Frameworks */ = {
+		07467C79C4A8445095B55A80 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				79D3B2AC958D4CBB806D2FE2 /* CMake Rules */,
+				910333F1701940AEB75362D4 /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/chipmunk/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		50F06CD221C649F49D4B4657 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B4C430EE36A642FFAA9FA6C2 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				F662A01377A442B29BD93595 /* CMake Rules */,
-				C97BE4560B7E49F8AC46174A /* /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/chipmunk/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		CAD8A0207E18440EA4F0DEE0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E857548B5F8B4C2EBD931A89 = {
-			isa = PBXGroup;
-			children = (
-				B4C430EE36A642FFAA9FA6C2 /* ALL_BUILD */,
-				CAD8A0207E18440EA4F0DEE0 /* Products */,
-				5D0E9EF5BB2F49EC94214ABF /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		F662A01377A442B29BD93595 /* CMake Rules */ = {
+		79D3B2AC958D4CBB806D2FE2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		803B359FF2ED458C95654743 = {
+			isa = PBXGroup;
+			children = (
+				07467C79C4A8445095B55A80 /* ALL_BUILD */,
+				C7BBB312FA1C475788FE22AB /* Products */,
+				50F06CD221C649F49D4B4657 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7BBB312FA1C475788FE22AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,18 +126,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 			};
-			buildConfigurationList = CC65CAC9FAC648F9A55594AE /* Build configuration list for PBXProject "chipmunk" */;
+			buildConfigurationList = 7E679AC911974DDF9994E48A /* Build configuration list for PBXProject "chipmunk" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				3E035543994B4D5583943C57 /* Debug */,
-				28AECB5135A34F1AB2E4A040 /* Release */,
-				0B24E09A01244AA08F7F69DF /* MinSizeRel */,
-				8A723602754E44609B8BE4CD /* RelWithDebInfo */,
+				498354A259794C40BC68C5FD /* Debug */,
+				5808C7B02E744763A6DEF8E0 /* Release */,
+				C6FDA1CADB2A4A8190269C5B /* MinSizeRel */,
+				2BE97B94ED3A48C2973D0BCE /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = E857548B5F8B4C2EBD931A89;
+			mainGroup = 803B359FF2ED458C95654743;
 			projectDirPath = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/cocos2d/external/chipmunk;
 			projectRoot = "";
 			targets = (
@@ -247,15 +247,35 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE5C9CF09CC24FD6B48A07F5 /* PBXTargetDependency */ = {
+		A0B468F4CC74431BAD9FB8FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A2087236F5994E318FDE8199 /* ZERO_CHECK */;
-			targetProxy = C2BF48712ABF484BA7D2344F /* PBXContainerItemProxy */;
+			targetProxy = AD3B8FF2F5FE4BEA95A35159 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01979D8039C14E4AB448A54D /* RelWithDebInfo */ = {
+		2ED1F587B5E34F99B6C289A3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
+			};
+			name = MinSizeRel;
+		};
+		388C14F0BA334E9A8E78D215 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
+			};
+			name = RelWithDebInfo;
+		};
+		57CD5E7A4D5B4F4B9C519F6D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -275,7 +295,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		08FCDB1295214435A9D3F612 /* Release */ = {
+		612E284FBB704DBCB8ED96BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -288,6 +308,86 @@ exit 0";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		62E6C6A482FB499BBE76EF56 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6E65E9F627844246B95F1C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
+			};
+			name = Debug;
+		};
+		78BE4178D5354CA7990476AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		804345A410F641018FBD7974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
+			};
+			name = Release;
+		};
+		967ABF99391F453782954046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
 				USE_HEADERMAP = NO;
@@ -295,7 +395,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		09760BC175A5484A9001937A /* MinSizeRel */ = {
+		AEE1E45443914544AC91BB73 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -315,7 +415,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		1DE741E0FF8F4AB78A52A287 /* MinSizeRel */ = {
+		DD6B9BF589914F72A46AF381 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -335,7 +435,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		3F666B57CD9D427495AF46C6 /* Debug */ = {
+		FB6DF76FCAD34AE4B8264129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -348,106 +448,6 @@ exit 0";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		600ACAD7C93A409A9737157F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
-			};
-			name = Release;
-		};
-		B2D3CA47B4624B04B4D020DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
-			};
-			name = Debug;
-		};
-		BCB1AAC43F0E4EC6B9122FA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		C78D81255A7E45F3B15DB255 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
-			};
-			name = RelWithDebInfo;
-		};
-		D1DB5B0250104917BBD0A2E2 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		D6B67D13CE4442599F3988A0 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk/build;
-			};
-			name = MinSizeRel;
-		};
-		EE7183FCB9594D2B99D31FE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/alexandr_broslavsky/Desktop/Cocos/Mach3/Build_iOS/engine/external/chipmunk;
 				USE_HEADERMAP = NO;
@@ -458,35 +458,35 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82E6DB84F4C648B8B6D6F0B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		642FE6BCC6224FB29D10DFCA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCB1AAC43F0E4EC6B9122FA6 /* Debug */,
-				EE7183FCB9594D2B99D31FE3 /* Release */,
-				09760BC175A5484A9001937A /* MinSizeRel */,
-				D1DB5B0250104917BBD0A2E2 /* RelWithDebInfo */,
+				612E284FBB704DBCB8ED96BF /* Debug */,
+				FB6DF76FCAD34AE4B8264129 /* Release */,
+				DD6B9BF589914F72A46AF381 /* MinSizeRel */,
+				57CD5E7A4D5B4F4B9C519F6D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		986E2AA014184A3F8CC2957A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		7E679AC911974DDF9994E48A /* Build configuration list for PBXProject "chipmunk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F666B57CD9D427495AF46C6 /* Debug */,
-				08FCDB1295214435A9D3F612 /* Release */,
-				1DE741E0FF8F4AB78A52A287 /* MinSizeRel */,
-				01979D8039C14E4AB448A54D /* RelWithDebInfo */,
+				6E65E9F627844246B95F1C6D /* Debug */,
+				804345A410F641018FBD7974 /* Release */,
+				2ED1F587B5E34F99B6C289A3 /* MinSizeRel */,
+				388C14F0BA334E9A8E78D215 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CC65CAC9FAC648F9A55594AE /* Build configuration list for PBXProject "chipmunk" */ = {
+		83613DE573184952806F4A9E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2D3CA47B4624B04B4D020DC /* Debug */,
-				600ACAD7C93A409A9737157F /* Release */,
-				D6B67D13CE4442599F3988A0 /* MinSizeRel */,
-				C78D81255A7E45F3B15DB255 /* RelWithDebInfo */,
+				78BE4178D5354CA7990476AC /* Debug */,
+				967ABF99391F453782954046 /* Release */,
+				AEE1E45443914544AC91BB73 /* MinSizeRel */,
+				62E6C6A482FB499BBE76EF56 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
