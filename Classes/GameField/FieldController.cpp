@@ -10,22 +10,17 @@
 #include "Model/TilesSystem.hpp"
 #include "Model/TileItem.hpp"
 #include "../Tile/TileComponent.hpp"
-#include "../Tile/Resources.hpp"
 #include "../Utils/ComponentHelper.hpp"
 
 namespace Match3Game::GameField
 {
     using namespace cocos2d;
+    using namespace Utils;
 
     FieldController::FieldController(cocos2d::Node *layer, const TilesSystemPtr& system)
     : _layer(layer), _tilesSystem(system), _selectItem(nullptr), _selectComponent(nullptr)
     {
         BindListener();
-    }
-
-    FieldController::~FieldController()
-    {
-        
     }
 
     void FieldController::BindListener()
@@ -46,24 +41,6 @@ namespace Match3Game::GameField
                 return true;
             }
             return false;
-
-//            /* Массив для записи спрайтов на "удаление" и переменная для количества записаных элементов в массив */
-//            int list_blocks[_height * _width], sum_sprites = 0;
-//            for (int i = 0; i < _width * _height; list_blocks[i] = 0, i++);
-//
-//            int *pSum_sprites = &sum_sprites;
-//            /* Определение диапазона щелчков, определение того, содержит ли переданная координата объект, по которому щелкнули */
-//            if (rect.containsPoint(locationInNode)) {
-//                list_blocks[0] = target->getTag();
-//                sum_sprites += 1;
-//                Fiel_Analysis(target->getTag(), list_blocks, pSum_sprites, target->getColor());
-//                Change_color(list_blocks, pSum_sprites);
-//                FallingBlocks();
-//                _scoreGame += sum_sprites;
-//                UpdateScoreText();
-//                return true;
-//            }
-//            return false;
         };
         AddEventListener();
     }
@@ -82,7 +59,7 @@ namespace Match3Game::GameField
 
     void FieldController::CheckSelect(cocos2d::Sprite *sprite)
     {
-        auto component = Utils::GetComponent<Tile::TileComponent>(sprite, "TileComponent");
+        auto component = GetComponent<Tile::TileComponent>(sprite, "TileComponent");
         auto item = _tilesSystem->GetItem(component->GetNumber());
         if (item->GetSpriteType() == Tile::SpriteType::End) return;
 
@@ -97,14 +74,40 @@ namespace Match3Game::GameField
         else if (IsAdjacent(item))
         {
             Swap(component, item);
-            UnSelect(_selectComponent);
+            
+            std::pair<std::vector<Tile::TileComponent*>,std::vector<Tile::TileComponent*>> pairVectorF, pairVectorS;
+            FieldAnalysis(pairVectorF, component, true);
+            FieldAnalysis(pairVectorF, component, false);
+            FieldAnalysis(pairVectorS, _selectComponent, true);
+            FieldAnalysis(pairVectorS, _selectComponent, false);
+            
+            auto handler = [this, cmp = component](auto component, auto item, auto vector)
+            {
+                UnSelect(_selectComponent);
+                DelSprites(vector);
+                auto children = _layer->getChildren();
+                for (auto sprite : children)
+                    if (auto component = GetComponent<Tile::TileComponent>(sprite, "TileComponent"); component)
+                        component->Update();
+                FallingBlocks();
+                
+            };
+            
+            if (pairVectorF.first.size() >= 2 || pairVectorF.second.size() >= 2)
+            {
+                handler(component, item, pairVectorF);
+            }
+            else if (pairVectorS.first.size() >= 2 || pairVectorS.second.size() >= 2)
+            {
+                handler(_selectComponent, item, pairVectorS);
+            }
+            else
+            {
+                Swap(component, item);
+                UnSelect(_selectComponent);
+                Select(component, item);
+            }
         }
-//        else if (Adjacent().Contains(tile))
-//        {
-//            Swap(tile);
-//            FindAllMatch(tile);
-//            UnSelectTile(oldSelected);
-//        }
         else
         {
             UnSelect(_selectComponent);
@@ -152,64 +155,93 @@ namespace Match3Game::GameField
                 selectNumber == thisNumber - xSize || selectNumber == thisNumber + xSize);
     }
 
-//private List<Tile> Adjacent()
-//{
-//    List<Tile> tmpList = new List<Tile>();
-//    for (var i = 0; i < dirRay.Length; i++)
-//    {
-//        var hit = Physics2D.Raycast(oldSelected.transform.position, dirRay[i]);
-//        if (hit.collider)
-//        {
-//            tmpList.Add(hit.collider.gameObject.GetComponent<Tile>());
-//        }
-//    }
-//    return tmpList;
-//}
-//
-//private List<Tile> GetMatch(Tile tile, Vector2 vec)
-//{
-//    List<Tile> tmpList = new List<Tile>();
-//    RaycastHit2D raycast = Physics2D.Raycast(tile.transform.position, vec);
-//    while (raycast.collider && raycast.collider.gameObject.GetComponent<Tile>().spriteRenderer.sprite == tile.spriteRenderer.sprite)
-//    {
-//        tmpList.Add(raycast.collider.gameObject.GetComponent<Tile>());
-//        raycast = Physics2D.Raycast(raycast.collider.gameObject.transform.position, vec);
-//    }
-//
-//    return tmpList;
-//}
-//
-//private void DelSprites(Tile tile, Vector2[] array)
-//{
-//    List<Tile> tmpList = new List<Tile>();
-//
-//    for (int i = 0; i < array.Length; i++)
-//    {
-//        tmpList.AddRange(GetMatch(tile, array[i]));
-//    }
-//
-//    if (tmpList.Count >= 2)
-//    {
-//        for (var i = 0; i < tmpList.Count; i++)
-//        {
-//            tmpList[i].spriteRenderer.sprite = null;
-//        }
-//        isMatch = true;
-//    }
-//}
-//
-//private void FindAllMatch(Tile tile)
-//{
-//    if (!tile.spriteRenderer.sprite) return;
-//
-//    DelSprites(tile, new Vector2[] { Vector2.up, Vector2.down });
-//    DelSprites(tile, new Vector2[] { Vector2.left, Vector2.right });
-//
-//    if (isMatch)
-//    {
-//        isMatch = false;
-//        tile.spriteRenderer.sprite = null;
-//    }
-//}
+    void FieldController::FieldAnalysis(std::pair<std::vector<Tile::TileComponent*>,std::vector<Tile::TileComponent*>>& vector,
+                                        const Tile::TileComponent *component, bool isY)
+    {
+        auto children = _layer->getChildren();
+        auto xSize = _tilesSystem->GetXSize();
+        auto ySize = _tilesSystem->GetYSize();
+        
+        if (component->GetNumber() < xSize * ySize - 2)
+        {
+            if (component->GetNumber() % xSize != 0 && !isY)
+            {
+                if (auto cmp = GetComponent<Tile::TileComponent>(*(children.begin() + component->GetNumber() + 1), "TileComponent"); cmp)
+                    SpriteComparison(vector, cmp, _tilesSystem->GetItem(component->GetNumber())->GetSpriteType(), isY);
+            }
+            if (component->GetNumber() + xSize <= (xSize * ySize - 1) && isY)
+            {
+                if (auto cmp = GetComponent<Tile::TileComponent>(*(children.begin() + component->GetNumber() + xSize), "TileComponent"); cmp)
+                    SpriteComparison(vector,cmp,_tilesSystem->GetItem(component->GetNumber())->GetSpriteType(), isY);
+            }
+        }
+        if (component->GetNumber() > 0)
+        {
+            if (component->GetNumber() % xSize != 1 && !isY)
+            {
+                if (auto cmp = GetComponent<Tile::TileComponent>(*(children.begin() + component->GetNumber() - 1), "TileComponent"); cmp)
+                    SpriteComparison(vector, cmp, _tilesSystem->GetItem(component->GetNumber())->GetSpriteType(), isY);
+            }
+            if (component->GetNumber() > (xSize- 1) && isY)
+            {
+                if (auto cmp = GetComponent<Tile::TileComponent>(*(children.begin() + component->GetNumber() - xSize), "TileComponent"); cmp)
+                    SpriteComparison(vector, cmp, _tilesSystem->GetItem(component->GetNumber())->GetSpriteType(), isY);
+            }
+        }
+    }
 
+    void FieldController::SpriteComparison(std::pair<std::vector<Tile::TileComponent*>,std::vector<Tile::TileComponent*>>& vector,
+                                           Tile::TileComponent *component, Tile::SpriteType type, bool isY)
+    {
+        if (_tilesSystem->GetItem(component->GetNumber())->GetSpriteType() == type &&
+            std::find((isY ? vector.second : vector.first).begin(),
+                      (isY ? vector.second : vector.first).end(), component) == (isY ? vector.second : vector.first).end())
+        {
+            (isY ? vector.second : vector.first).push_back(component);
+            FieldAnalysis(vector, component, isY);
+        }
+    }
+
+    void FieldController::DelSprites(std::pair<std::vector<Tile::TileComponent*>,std::vector<Tile::TileComponent*>>& vector)
+    {
+        if (vector.first.size() >= 2)
+            for (auto item : vector.first)
+                _tilesSystem->GetItem(item->GetNumber())->SetSprite(Tile::SpriteType::End);
+        if (vector.second.size() >= 2)
+            for (auto item : vector.second)
+                _tilesSystem->GetItem(item->GetNumber())->SetSprite(Tile::SpriteType::End);
+    }
+
+    void FieldController::FallingBlocks()
+    {
+        auto children = _layer->getChildren();
+        for (auto item : children)
+            if (auto component = GetComponent<Tile::TileComponent>(item, "TileComponent"); component)
+                if (auto itemTile = _tilesSystem->GetItem(component->GetNumber()); itemTile)
+                    if (itemTile->GetSpriteType() == Tile::SpriteType::End &&
+                        (itemTile->GetNumber() + _tilesSystem->GetXSize() <= _tilesSystem->Count() - 1))
+                    {
+                        itemTile->SetSprite(_tilesSystem->GetItem(itemTile->GetNumber() + _tilesSystem->GetXSize())->GetSpriteType());
+                        _tilesSystem->GetItem(itemTile->GetNumber() + _tilesSystem->GetXSize())->SetSprite(Tile::SpriteType::End);
+                    }
+        
+        for (auto i = _tilesSystem->GetXSize() * _tilesSystem->GetYSize() - _tilesSystem->GetXSize();
+             i < _tilesSystem->GetXSize() * _tilesSystem->GetYSize(); i++)
+            if (auto component = GetComponent<Tile::TileComponent>(*(children.begin() + i), "TileComponent"); component)
+                if (auto itemTile = _tilesSystem->GetItem(component->GetNumber()))
+                    if (itemTile->GetSpriteType() == Tile::SpriteType::End)
+                        _tilesSystem->ReInit(component->GetNumber());
+        
+        int count = 0;
+        for (auto item : children)
+            if (auto component = GetComponent<Tile::TileComponent>(item, "TileComponent"); component)
+            {
+                if (auto itemTile = _tilesSystem->GetItem(component->GetNumber()))
+                    if (itemTile->GetSpriteType() == Tile::SpriteType::End)
+                        count++;
+                component->Update();
+            }
+        if (count != 0)
+            FallingBlocks();
+    }
 }

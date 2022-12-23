@@ -25,6 +25,8 @@ namespace Match3Game::Model
         virtual std::size_t Count() const = 0;
         virtual std::size_t GetXSize() const = 0;
         virtual std::size_t GetYSize() const = 0;
+    public:
+        virtual void ReInit(std::size_t idx) = 0;
     };
 }
 

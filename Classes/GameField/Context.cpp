@@ -22,7 +22,7 @@ namespace Match3Game::GameField
 
     void Context::InitGameField(cocos2d::Node *layer)
     {
-        _tilesSystem->Init(5, 10);
+        _tilesSystem->Init(5, 9);
         
         auto node = cocos2d::Node::create();
         node->setAnchorPoint(cocos2d::Vec2(0.0, 0.0));

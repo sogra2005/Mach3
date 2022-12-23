@@ -341,6 +341,7 @@
 		785522BF29541C34005EC0D1 /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 785522B029541C33005EC0D1 /* Context.cpp */; };
 		785522C029541C34005EC0D1 /* SceneContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 785522B429541C33005EC0D1 /* SceneContext.cpp */; };
 		785522C129541C34005EC0D1 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 785522B529541C34005EC0D1 /* GameScene.cpp */; };
+		785522C42954D2E4005EC0D1 /* end.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 785522C32954D2E4005EC0D1 /* end.png */; };
 		79558B4689A54BA09AAB603E /* CCPUOnClearObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DA8ACA9684AB18C5378C4 /* CCPUOnClearObserver.cpp */; };
 		7991AB1AEAF94605B622A925 /* CCNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70221D62DF7C497EB928515C /* CCNode.cpp */; };
 		7B21531CD914437BA6D2AE20 /* DetourNavMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CED7FCAB3DC4C15B0CAC3EE /* DetourNavMeshBuilder.cpp */; };
@@ -606,7 +607,6 @@
 		D68C6F329B6F4D84B30A3DDF /* CCPUPathFollower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F76CE08BFCC4B929DF2B125 /* CCPUPathFollower.cpp */; };
 		D6952A0815FB4700AE122EEE /* ccUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E92510D00E054F68BBD1BCC6 /* ccUtils.cpp */; };
 		D6E34C73D00C4520AE154549 /* RotateTimeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E218A2ED0C41BFA398A5D2 /* RotateTimeline.cpp */; };
-		D790D1E4FEE54011B9917D90 /* .DS_Store in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C05F80D3CEB483B9254B910 /* .DS_Store */; };
 		D7C048D857764F80A3F46433 /* CCScriptSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F27695D65484340B8D69476 /* CCScriptSupport.cpp */; };
 		D86360C0552945249D3C8079 /* ProgramCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6586F7D658040818310EBF3 /* ProgramCache.cpp */; };
 		D909840E368F4526A55B8352 /* CCParticleSystem3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB078E3125814985A8B98472 /* CCParticleSystem3D.cpp */; };
@@ -1068,7 +1068,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				D790D1E4FEE54011B9917D90 /* .DS_Store in CopyFiles */,
+				785522C42954D2E4005EC0D1 /* end.png in CopyFiles */,
 				8EB09C943FA540FAA500B9FD /* CloseNormal.png in CopyFiles */,
 				6E6A54BC37274A60ACA45C6E /* CloseSelected.png in CopyFiles */,
 				97372CC791DA4E64A98F0666 /* HelloWorld.png in CopyFiles */,
@@ -1768,6 +1768,7 @@
 		785522B329541C33005EC0D1 /* FieldComponent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FieldComponent.hpp; sourceTree = "<group>"; };
 		785522B429541C33005EC0D1 /* SceneContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneContext.cpp; path = Classes/SceneContext.cpp; sourceTree = "<group>"; };
 		785522B529541C34005EC0D1 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = Classes/GameScene.cpp; sourceTree = "<group>"; };
+		785522C32954D2E4005EC0D1 /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = end.png; path = Resources/end.png; sourceTree = "<group>"; };
 		7881939F5F1E4052A32889BA /* CCPUOnPositionObserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUOnPositionObserver.cpp; path = cocos2d/extensions/Particle3D/PU/CCPUOnPositionObserver.cpp; sourceTree = SOURCE_ROOT; };
 		78B05C8874204D0CBF7D79E8 /* CSLanguageDataBinary_generated.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CSLanguageDataBinary_generated.h; path = "cocos2d/cocos/editor-support/cocostudio/CSLanguageDataBinary_generated.h"; sourceTree = SOURCE_ROOT; };
 		78B63CEAD8924E6CAF3B9647 /* CCTableViewCell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCTableViewCell.cpp; path = cocos2d/extensions/GUI/CCScrollView/CCTableViewCell.cpp; sourceTree = SOURCE_ROOT; };
@@ -2833,6 +2834,7 @@
 				4C05F80D3CEB483B9254B910 /* .DS_Store */,
 				D70A0035A9554CB18CB59D5D /* CloseNormal.png */,
 				63E0258899D54420826661C8 /* CloseSelected.png */,
+				785522C32954D2E4005EC0D1 /* end.png */,
 				317C8251930C46418D65CB22 /* HelloWorld.png */,
 				3026125957FF4A1E921405D3 /* crystal0.png */,
 				BBEBA836789543838AF306EE /* crystal1.png */,

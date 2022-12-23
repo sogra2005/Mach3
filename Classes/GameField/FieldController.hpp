@@ -9,6 +9,9 @@
 #define FieldController_hpp
 
 #include "cocos2d.h"
+#include "../Tile/Resources.hpp"
+
+#include <utility>
 
 namespace Match3Game::Model
 {
@@ -30,7 +33,6 @@ namespace Match3Game::GameField
         using TileItemPtr = std::shared_ptr<Model::ITileItem>;
     public:
         FieldController(cocos2d::Node *layer, const TilesSystemPtr& system);
-        ~FieldController();
     private:
         void BindListener();
         void AddEventListener();
@@ -40,6 +42,12 @@ namespace Match3Game::GameField
         void UnSelect(Tile::TileComponent *component);
         void Swap(Tile::TileComponent *component, const TileItemPtr& item);
         bool IsAdjacent(const TileItemPtr& item) const;
+        void FieldAnalysis(std::pair<std::vector<Tile::TileComponent*>,std::vector<Tile::TileComponent*>>& vector,
+                           const Tile::TileComponent *component, bool isY);
+        void SpriteComparison(std::pair<std::vector<Tile::TileComponent*>,std::vector<Tile::TileComponent*>>& vector,
+                              Tile::TileComponent *component, Tile::SpriteType type, bool isY);
+        void DelSprites(std::pair<std::vector<Tile::TileComponent*>,std::vector<Tile::TileComponent*>>& vector);
+        void FallingBlocks();
     private:
         cocos2d::Node *_layer;
         cocos2d::EventListenerTouchOneByOne* _fieldListener;

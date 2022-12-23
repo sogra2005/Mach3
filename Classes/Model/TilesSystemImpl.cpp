@@ -51,6 +51,11 @@ namespace Match3Game::Model
         }
     }
 
+    void TilesSystem::ReInit(std::size_t idx)
+    {
+        GetItem(idx)->SetSprite(Tile::SpriteType(Utils::RandomGenerator::GetRandomInt(0, 4)));
+    }
+
     auto TilesSystem::GetItem(std::size_t idx) const -> ItemPtr
     {
         return _items[idx];

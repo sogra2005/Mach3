@@ -25,6 +25,8 @@ namespace Match3Game::Model
         std::size_t Count() const override;
         std::size_t GetXSize() const override;
         std::size_t GetYSize() const override;
+    public:
+        void ReInit(std::size_t idx) override;
     private:
         std::vector<ItemPtr> _items;
         std::size_t _xSize, _ySize;

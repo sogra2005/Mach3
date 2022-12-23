@@ -28,8 +28,9 @@ namespace Match3Game::Tile
         
         if (!_item) return;
         
-        Update();
+        _sprite->setTexture("end.png");
         _sprite->setPosition(_item->GetPosition());
+        Update();
     }
 
     void TileComponent::onRemove()
